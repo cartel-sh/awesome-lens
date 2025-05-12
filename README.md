@@ -1,6 +1,6 @@
 # Awesome Lens 
 
-All Lens Protocol / Lens chain / Grove projects in one place
+All Lens Chain / Lens Protocol v3 related projects in one place
 
 ## Apps
 
@@ -9,9 +9,10 @@ All Lens Protocol / Lens chain / Grove projects in one place
 - [Lemonade](https://lemonade.social/) - platform for your shop, events and community.
 - [Lens Box](https://lens.box) - E2E encrypted instant messaging app
 - [Lens Reputation](https://lensreputation.xyz) - decentralized reputation system ([@lensreputation](https://hey.xyz/u/lensreputation))
+- [Orb](https://orb.club) - mobile client for Lens Protocol ([@orb](https://hey.xyz/u/orb))
+- [Lenscan](https://lenscan.io) - Community driven Lens chain explorer
 - [LCtips](https://lctips.xyz/) - per-user tips data
 - [Bonsai](https://onbons.ai) - ([@bonsai](https://hey.xyz/u/bonsai))
-- [Orb](https://orb.club) - ([@orb](https://hey.xyz/u/orb))
 - [Rekt](https://rekt.news) - ([@rekt](https://hey.xyz/u/rekt))
 - [Firefly](https://firefly.social) - ([@fireflyapp](https://hey.xyz/u/fireflyapp))
 - [Soclly](https://app.soclly.com) - ([@socllyofficial](https://hey.xyz/u/socllyofficial))
@@ -27,26 +28,14 @@ All Lens Protocol / Lens chain / Grove projects in one place
 - [Create Account](https://onboarding.lens.xyz)
 - [Block Explorer](https://explorer.lens.xyz)
 - [Awesome Lens](https://github.com/kuhaku-xyz/awesome-lens)
+- [Lens SDK](https://github.com/lens-protocol/lens-sdk) - The official SDK for the Lens Protocol
+- [Grove](https://lens.xyz/docs/storage) - Secure, flexible, onchain-controlled storage layer for Web3 apps.
 
-## Dune Dashboards
+### Dune Dashboards
 
 - [Lens Chain](https://dune.com/lens/lens-chain) - general dashboard 
 - [Lens Chain](https://dune.com/vicnaum/lens-chain) - dashboard by [Vicnaum](https://hey.xyz/u/vicnaum)
 - [GHO stable gas](https://dune.com/jonaso/gho-lens) - GHO on LC dashboard
-
-## SDKs
-
-- [Lens SDK](https://github.com/lens-protocol/lens-sdk) - The official SDK for the Lens Protocol
-
-## Wallets & Portfolio Management
-
-- [Family](https://family.co) - A human-friendly wallet ([@family](https://hey.xyz/u/family))
-- [Zerion](https://zerion.io) 
-- [Rabby](https://rabby.io) 
-- [Safe](https://app.safe.global)
-- [Zapper](https://zapper.xyz)
-- [Debank](https://debank.com)
-- [MetaMask](https://metamask.io)
 
 ## Bridges
 
@@ -69,4 +58,3 @@ All Lens Protocol / Lens chain / Grove projects in one place
 - [Lenscan](https://lenscan.io)
 - [Chainlink](https://chain.link) 
 - [RedStone](https://redstone.finance)
-
