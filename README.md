@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Awesome Lens 
 
-## Getting Started
+All Lens Protocol / Lens chain / Grove projects in one place
 
-First, run the development server:
+## General Resources
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [FAQ](https://lens.xyz/faq)
+- [Docs](https://lens.xyz/docs/chain/overview)
+- [Developer Dashboard](https://developer.lens.xyz)
+- [Create Account](https://onboarding.lens.xyz)
+- [Block Explorer](https://explorer.lens.xyz)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Apps
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- [Hey](https://hey.xyz) - decentralized and permissionless social media app
+  - devs: [@yoginth](https://hey.xyz/u/yoginth)
+  - account: [@hey](https://hey.xyz/u/hey)
+  - github: [heyverse/hey](https://github.com/hey-xyz/hey)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Orb](https://orb.club)
+  - account: [@orb](https://hey.xyz/u/orb)
 
-## Learn More
+- [Fountain](https://fountain.ink) - A decentralized blogging platform
+  - account: [@fountain](https://hey.xyz/u/fountain)
 
-To learn more about Next.js, take a look at the following resources:
+- [Bonsai](https://onbons.ai)
+  - account: [@bonsai](https://hey.xyz/u/bonsai)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Rekt](https://rekt.news)
+  - account: [@rekt](https://hey.xyz/u/rekt)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Firefly](https://firefly.social)
+  - account: [@fireflyapp](https://hey.xyz/u/fireflyapp)
 
-## Deploy on Vercel
+- [Soclly](https://app.soclly.com)
+  - account: [@socllyofficial](https://hey.xyz/u/socllyofficial)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## SDKs
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Lens SDK](https://github.com/lens-protocol/lens-sdk) - The official SDK for the Lens Protocol
+  - devs: [@lens](https://hey.xyz/u/lens)
+
+## Wallet & Portfolio Management
+
+- [Family](https://family.co)
+  - account: [@family](https://hey.xyz/u/family)
+- [Zerion](https://zerion.io)
+  - account: [@zerion](https://hey.xyz/u/zerion)
+- [Rabby](https://rabby.io)
+- [MetaMask](https://metamask.io)
+- [Safe](https://app.safe.global)
+- [Zapper](https://zapper.xyz)
+- [Debank](https://debank.com)
+
+## Bridge
+
+- [Across](https://across.to)
+- [Jumper](https://jumper.exchange)
+  - account: [@jumperexchange](https://hey.xyz/u/jumperexchange)
+
+## Infrastructure & Developer Tooling
+
+- [ZKSync](https://zksync.io)
+  - account: [@zksync](https://hey.xyz/u/zksync)
+- [Avail DA](https://avail.network)
+  - account: [@avail_project](https://hey.xyz/u/avail_project)
+- [Thirdweb](https://thirdweb.com)
+- [Alchemy](https://alchemy.com)
+- [Uniswap V3](https://uniswap.org)
+  - account: [@uniswap](https://hey.xyz/u/uniswap)
+- [Tenderly](https://tenderly.co)
+- [Dune](https://dune.com)
+  - account: [@dune](https://hey.xyz/u/dune)
+- [Covalent](https://covalenthq.com)
+- [dRPC](https://drpc.org)
+- [LiFi](https://li.fi)
+- [LayerZero](https://layerzero.network)
+- [Lenscan](https://lenscan.io)
+  - account: [@daoleno](https://hey.xyz/u/daoleno)
+- [Chainlink](https://chain.link)
+  - account: [@chainlink](https://hey.xyz/u/chainlink)
+- [RedStone](https://redstone.finance)
+  - account: [@redstone_oracles](https://hey.xyz/u/redstone_oracles)
+

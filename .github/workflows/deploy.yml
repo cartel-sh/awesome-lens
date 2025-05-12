@@ -1,0 +1,40 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # Or your default branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # To push to gh-pages branch
+      pages: write    # To deploy to Pages
+      id-token: write # For OIDC token if needed
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Build Next.js app
+        # env: # If you have environment variables, add them here
+        #   # EXAMPLE_ENV_VAR: ${{ secrets.EXAMPLE_ENV_VAR }}
+        run: bun run build # Assumes 'next build && next export' or similar
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./out # Standard output directory for 'next export'
+          # Optional: Configure custom domain, user name/email for commits
+          # cname: your.custom.domain
+          # user_name: 'github-actions[bot]'
+          # user_email: 'github-actions[bot]@users.noreply.github.com' 
