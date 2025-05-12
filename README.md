@@ -12,7 +12,7 @@ All Lens Chain / Lens Protocol v3 related projects in one place
 - [Orb](https://orb.club) - mobile client for Lens Protocol ([@orb](https://hey.xyz/u/orb))
 - [Lenscan](https://lenscan.io) - Community driven Lens chain explorer
 - [LCtips](https://lctips.xyz/) - per-user tips data
-- [Bonsai](https://onbons.ai) - ([@bonsai](https://hey.xyz/u/bonsai))
+- [Bonsai](https://onbons.ai) - Create & monetize agentic content on Lens ([@bonsai](https://hey.xyz/u/bonsai))
 - [Rekt](https://rekt.news) - ([@rekt](https://hey.xyz/u/rekt))
 - [Firefly](https://firefly.social) - ([@fireflyapp](https://hey.xyz/u/fireflyapp))
 - [Soclly](https://app.soclly.com) - ([@socllyofficial](https://hey.xyz/u/socllyofficial))
@@ -30,6 +30,7 @@ All Lens Chain / Lens Protocol v3 related projects in one place
 - [Awesome Lens](https://github.com/kuhaku-xyz/awesome-lens)
 - [Lens SDK](https://github.com/lens-protocol/lens-sdk) - The official SDK for the Lens Protocol
 - [Grove](https://lens.xyz/docs/storage) - Secure, flexible, onchain-controlled storage layer for Web3 apps.
+- [Bonsai](https://docs.onbons.ai) - Create agentic templates that define post, profile, or feed behavior
 
 ### Dune Dashboards
 
@@ -41,6 +42,7 @@ All Lens Chain / Lens Protocol v3 related projects in one place
 
 - [Across](https://across.to)
 - [Jumper](https://jumper.exchange)
+- [Bonsai](https://app.onbons.ai/studio/stake?bridge=1)
 
 ## Infrastructure & Developer Tooling
 
