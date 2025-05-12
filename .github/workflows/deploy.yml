@@ -1,19 +1,26 @@
-name: Deploy to GitHub Pages
+name: Deploy Next.js site to Pages
 
 on:
   push:
     branches:
-      - main # Or your default branch
+      - main
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write # To push to gh-pages branch
-      pages: write    # To deploy to Pages
-      id-token: write # For OIDC token if needed
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
 
       - name: Setup Bun
@@ -21,20 +28,49 @@ jobs:
         with:
           bun-version: latest
 
+      - name: Cache Bun dependencies and Next.js cache
+        uses: actions/cache@v4
+        with:
+          path: |
+            .bun
+            .next/cache
+          key: ${{ runner.os }}-bun-nextjs-${{ hashFiles('**/bun.lockb') }}-${{ hashFiles('**.[jt]s', '**.[jt]sx') }}
+          restore-keys: |
+            ${{ runner.os }}-bun-nextjs-${{ hashFiles('**/bun.lockb') }}-
+
       - name: Install dependencies
         run: bun install
 
-      - name: Build Next.js app
-        # env: # If you have environment variables, add them here
-        #   # EXAMPLE_ENV_VAR: ${{ secrets.EXAMPLE_ENV_VAR }}
-        run: bun run build # Assumes 'next build && next export' or similar
+      - name: Setup Pages
+        id: setup_pages
+        uses: actions/configure-pages@v5
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Build with Next.js
+        run: bun run build
+        env:
+          PAGES_BASE_PATH: ${{ steps.setup_pages.outputs.base_path }}
+
+      - name: Export static site
+        run: bun run export
+
+      - name: Copy CNAME file from src (if exists)
+        run: |
+          if [ -f src/CNAME ]; then
+            cp src/CNAME ./out/CNAME
+          fi
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./out # Standard output directory for 'next export'
-          # Optional: Configure custom domain, user name/email for commits
-          # cname: your.custom.domain
-          # user_name: 'github-actions[bot]'
-          # user_email: 'github-actions[bot]@users.noreply.github.com' 
+          path: ./out
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4 
