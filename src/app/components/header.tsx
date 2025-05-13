@@ -2,7 +2,7 @@
 
 export default function Header() {
   return (
-    <header className="w-full flex justify-between items-center py-4 px-8 mb-4 border-b border-foreground/30">
+    <header className="w-full flex justify-between items-center p-4 sm:px-8 mb-4 border-b border-foreground/30">
       <h1 className="text-2xl font-bold">Awesome Lens</h1>
       <div className="flex items-center gap-2">
         <a

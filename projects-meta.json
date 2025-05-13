@@ -1,0 +1,396 @@
+{
+  "Apps": [
+    {
+      "name": "0xppl",
+      "url": "https://0xppl.xyz",
+      "handle": "@ppl__",
+      "category": "Apps"
+    },
+    {
+      "name": "Bonsai",
+      "url": "https://onbons.ai",
+      "description": "Create & monetize agentic content on Lens",
+      "handle": "@bonsai",
+      "ogTitle": "Bonsai",
+      "ogDescription": "Bonsai: Smart Media Protocol - AI-Powered, Onchain Social Content.",
+      "ogImage": "https://onbons.ai/opengraph-image.png?486161960a3c643e",
+      "iconUrl": "https://onbons.ai/favicon.ico",
+      "category": "Apps"
+    },
+    {
+      "name": "Firefly",
+      "url": "https://firefly.social",
+      "handle": "@fireflyapp",
+      "ogTitle": "Firefly ✨ Everything App for Web3 Natives",
+      "ogDescription": "Firefly is a Web3 social app by Mask Network. Explore timelines from X, Farcaster, Lens & Bluesky, and track trends in DeFi, MEME, NFTs, and more.",
+      "ogImage": "https://firefly.social/image/og.png",
+      "iconUrl": "https://firefly.social/android-chrome-192x192.png",
+      "category": "Apps"
+    },
+    {
+      "name": "Fountain",
+      "url": "https://fountain.ink",
+      "description": "decentralized blogging platform",
+      "handle": "@fountain",
+      "github": "https://github.com/fountain-ink/app",
+      "ogTitle": "Fountain",
+      "ogDescription": "where your writing journey begins...",
+      "iconUrl": "https://fountain.ink/favicon.ico",
+      "category": "Apps"
+    },
+    {
+      "name": "Hey",
+      "url": "https://hey.xyz",
+      "description": "decentralized and permissionless social media app",
+      "handle": "@hey",
+      "github": "https://github.com/heyverse/hey",
+      "ogTitle": "Hey",
+      "ogDescription": "Hey.xyz is a decentralized, and permissionless social media app built with Lens",
+      "ogImage": "https://static.hey.xyz/images/og/cover.png",
+      "iconUrl": "https://hey.xyz/favicon.ico",
+      "category": "Apps"
+    },
+    {
+      "name": "Intract",
+      "url": "https://www.intract.io/",
+      "handle": "@intract",
+      "ogTitle": "Intract",
+      "ogDescription": "Intract's Protocol empowers users to harness on-chain and off-chain data and reputation to unlock better rewards and incentives, create tailored AI agents, and safeguard privacy and data ownership.",
+      "ogImage": "https://static.highongrowth.xyz/enterprise/660ed0280f5e5a9e8238d0f5/0f5fd96bc66a40d3afe0d7a290df04ec.svg",
+      "iconUrl": "https://www.intract.io/favicon.ico",
+      "category": "Apps"
+    },
+    {
+      "name": "LCtips",
+      "url": "https://lctips.xyz/",
+      "description": "per-user tips data",
+      "ogTitle": "LC Tips",
+      "ogDescription": "Visualize tips on Lens Chain",
+      "ogImage": "https://lctips.xyz/thumbnail.png",
+      "iconUrl": "https://lctips.xyz/favicon.ico",
+      "category": "Apps"
+    },
+    {
+      "name": "Lemonade",
+      "url": "https://lemonade.social/",
+      "description": "platform for your shop, events and community.",
+      "ogTitle": "Lemonade",
+      "ogDescription": "Discover events & communities, find your tribe! Create your own Lemonade Stand to build and collaborate with creators across the world. #makelemonade",
+      "iconUrl": "https://lemonade.social/favicon.ico",
+      "category": "Apps"
+    },
+    {
+      "name": "Lens Box",
+      "url": "https://lens.box",
+      "description": "E2E encrypted instant messaging app",
+      "category": "Apps"
+    },
+    {
+      "name": "Lens Reputation",
+      "url": "https://lensreputation.xyz",
+      "description": "decentralized reputation system",
+      "handle": "@lensreputation",
+      "ogTitle": "Lens Reputation",
+      "ogDescription": "Track and showcase your reputation on Lens Network",
+      "ogImage": "logo.png",
+      "category": "Apps"
+    },
+    {
+      "name": "Lenscan",
+      "url": "https://lenscan.io",
+      "description": "Community driven Lens chain explorer",
+      "ogTitle": "Lenscan",
+      "ogDescription": "Lens Protocol Blockchain and Social Explorer",
+      "iconUrl": "https://lenscan.io/favicon.svg",
+      "category": "Apps"
+    },
+    {
+      "name": "Orb",
+      "url": "https://orb.club",
+      "description": "mobile client for Lens Protocol",
+      "handle": "@orb",
+      "ogTitle": "orb: discover fun in web3",
+      "ogDescription": "built for artists, creators, degens, and you!",
+      "ogImage": "https://orb.club/assets/landing_preview.png",
+      "iconUrl": "https://orb.club/favicon.ico",
+      "category": "Apps"
+    },
+    {
+      "name": "Rekt",
+      "url": "https://rekt.news",
+      "handle": "@rekt",
+      "ogTitle": "Rekt - Home",
+      "ogDescription": "DeFi / Crypto - Investigative journalism &amp; creative commentary",
+      "ogImage": "https://raw.githubusercontent.com/RektHQ/Assets/main/images/banner-1200-675.png",
+      "iconUrl": "https://raw.githubusercontent.com/RektHQ/Assets/main/images/favicon.png",
+      "category": "Apps"
+    },
+    {
+      "name": "Soclly",
+      "url": "https://app.soclly.com",
+      "handle": "@socllyofficial",
+      "ogTitle": "Soclly",
+      "ogDescription": "Soclly is a social aggregator platform.",
+      "ogImage": "https://assets.soclly.com/marketing/og.png",
+      "iconUrl": "https://assets.soclly.com/images/icons/apple-touch-icon.png",
+      "category": "Apps"
+    }
+  ],
+  "Resources": [
+    {
+      "name": "Awesome Lens",
+      "url": "https://github.com/kuhaku-xyz/awesome-lens",
+      "ogTitle": "GitHub - kuhaku-xyz/awesome-lens: a collection of awesome lens projects",
+      "ogDescription": "a collection of awesome lens projects. Contribute to kuhaku-xyz/awesome-lens development by creating an account on GitHub.",
+      "ogImage": "https://opengraph.githubassets.com/f17dc5f5462f9b3184cedfd95f45d08153649440ff19605ddfee24ed2dc64815/kuhaku-xyz/awesome-lens",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "category": "Resources"
+    },
+    {
+      "name": "Block Explorer",
+      "url": "https://explorer.lens.xyz",
+      "ogTitle": "Lens Network Block Explorer",
+      "ogDescription": "Lens Network Block Explorer provides all the information to deep dive into transactions, blocks, contracts, and much more. Deep dive into Lens Network and explore.",
+      "ogImage": "https://explorer.lens.xyz/preview.png",
+      "iconUrl": "https://explorer.lens.xyz/favicon.svg",
+      "category": "Resources"
+    },
+    {
+      "name": "Create Account",
+      "url": "https://onboarding.lens.xyz",
+      "ogTitle": "Lens",
+      "ogDescription": "Lens is an open social network where users own their content and connections, and developers can build apps on the network.",
+      "ogImage": "https://lens.xyz/og-default.png",
+      "iconUrl": "https://onboarding.lens.xyz/icon.svg?0e7fdaca639fd3a7",
+      "category": "Resources"
+    },
+    {
+      "name": "Developer Dashboard",
+      "url": "https://developer.lens.xyz",
+      "ogTitle": "Lens Developer Dashboard",
+      "ogDescription": "Lens is an open social network where users own their content and connections, and developers can build apps on the network.",
+      "ogImage": "https://developer.lens.xyz/og-default.png",
+      "iconUrl": "https://developer.lens.xyz/icon.svg?6dcb821e71ccfc6d",
+      "category": "Resources"
+    },
+    {
+      "name": "Docs",
+      "url": "https://lens.xyz/docs/chain/overview",
+      "ogTitle": "Lens Chain",
+      "ogImage": "https://lens-protocol-docs.vercel.app/docs/api/og?slug=chainoverview",
+      "iconUrl": "https://lens.xyz/docs/favicon.svg",
+      "category": "Resources"
+    },
+    {
+      "name": "FAQ",
+      "url": "https://lens.xyz/faq",
+      "ogTitle": "Lens",
+      "ogDescription": "The SocialFi chain.",
+      "ogImage": "https://lens.xyz/opengraph/faq.png",
+      "iconUrl": "https://lens.xyz/icon.svg?6dcb821e71ccfc6d",
+      "category": "Resources"
+    },
+    {
+      "name": "Grove",
+      "url": "https://lens.xyz/docs/storage",
+      "description": "Secure, flexible, onchain-controlled storage layer for Web3 apps.",
+      "ogTitle": "Grove",
+      "ogDescription": "Secure, flexible, onchain-controlled storage layer for Web3 apps.",
+      "ogImage": "https://lens-protocol-docs.vercel.app/docs/api/og?slug=storage",
+      "iconUrl": "https://lens.xyz/docs/favicon.svg",
+      "category": "Resources"
+    },
+    {
+      "name": "Lens SDK",
+      "url": "https://github.com/lens-protocol/lens-sdk",
+      "description": "The official SDK for the Lens Protocol",
+      "ogTitle": "GitHub - lens-protocol/lens-sdk: The official SDK to interact with the Lens Protocol",
+      "ogDescription": "The official SDK to interact with the Lens Protocol - lens-protocol/lens-sdk",
+      "ogImage": "https://opengraph.githubassets.com/5971b0895432378669a97e99ea7166b815d2b270c7e4f7f1b97c4126a9a46e01/lens-protocol/lens-sdk",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "category": "Resources"
+    }
+  ],
+  "Dune Dashboards": [
+    {
+      "name": "GHO stable gas",
+      "url": "https://dune.com/jonaso/gho-lens",
+      "description": "GHO on LC dashboard",
+      "ogTitle": "GHO as a stable gas on Lens Chain (LC)",
+      "ogDescription": "Dune is the all-in-one crypto data platform — query with SQL, stream data via APIs & DataShare, and publish interactive dashboards across 100+ blockchains.",
+      "ogImage": "https://core-api.dune.com/public/screenshot?url=https://dune.com/jonaso/gho-lens",
+      "iconUrl": "https://dune.com/assets/glyph-1024w.png",
+      "category": "Dune Dashboards"
+    },
+    {
+      "name": "Lens Chain",
+      "url": "https://dune.com/vicnaum/lens-chain",
+      "description": "dashboard by Vicnaum",
+      "handleUrl": "https://hey.xyz/u/vicnaum",
+      "ogTitle": "Lens Chain",
+      "ogDescription": "Dune is the all-in-one crypto data platform — query with SQL, stream data via APIs & DataShare, and publish interactive dashboards across 100+ blockchains.",
+      "ogImage": "https://core-api.dune.com/public/screenshot?url=https://dune.com/vicnaum/lens-chain",
+      "iconUrl": "https://dune.com/assets/glyph-1024w.png",
+      "category": "Dune Dashboards"
+    },
+    {
+      "name": "Lens Chain",
+      "url": "https://dune.com/lens/lens-chain",
+      "description": "general dashboard",
+      "ogTitle": "Lens Chain",
+      "ogDescription": "Dune is the all-in-one crypto data platform — query with SQL, stream data via APIs & DataShare, and publish interactive dashboards across 100+ blockchains.",
+      "ogImage": "https://core-api.dune.com/public/screenshot?url=https://dune.com/lens/lens-chain",
+      "iconUrl": "https://dune.com/assets/glyph-1024w.png",
+      "category": "Dune Dashboards"
+    }
+  ],
+  "Bridges": [
+    {
+      "name": "Across",
+      "url": "https://across.to",
+      "ogTitle": "Home | Across Protocol | Across Protocol",
+      "ogDescription": "Interoperability powered by Intents. A new paradigm in crosschain experiences, seamlessly connecting users with applications.",
+      "iconUrl": "https://across.to/favicon.ico",
+      "category": "Bridges"
+    },
+    {
+      "name": "Jumper",
+      "url": "https://jumper.exchange",
+      "iconUrl": "https://jumper.exchange/favicon.ico",
+      "category": "Bridges"
+    }
+  ],
+  "Infrastructure & Developer Tooling": [
+    {
+      "name": "Alchemy",
+      "url": "https://alchemy.com",
+      "description": "Blockchain API provider",
+      "ogTitle": "Alchemy - the web3 development platform",
+      "ogDescription": "Whether you're a beginner developer, startup, web3 market leader, or a large enterprise, Alchemy makes multichain web3 development easy.",
+      "ogImage": "https://www.datocms-assets.com/105223/1705957019-home-page-og-image_sm.png?auto=format&fit=max&w=1200",
+      "iconUrl": "https://alchemy.com/favicon.ico",
+      "category": "Infrastructure & Developer Tooling"
+    },
+    {
+      "name": "Avail DA",
+      "url": "https://avail.network",
+      "description": "A DA layer for Lens Chain",
+      "handle": "@avail_project",
+      "iconUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAADElEQVQI12P4//8/AAX+Av7czFnnAAAAAElFTkSuQmCC",
+      "category": "Infrastructure & Developer Tooling"
+    },
+    {
+      "name": "Chainlink",
+      "url": "https://chain.link",
+      "ogTitle": "Chainlink: The backbone of blockchain.",
+      "ogDescription": "Major financial institutions and top DeFi protocols use Chainlink to power next-generation applications for banking, asset management, and other major sectors.",
+      "ogImage": "https://cdn.prod.website-files.com/5f6b7190899f41fb70882d08/66570710183a306247e16f9f_chain.link-open-graph-banner-1200x630.png",
+      "iconUrl": "https://cdn.prod.website-files.com/5f6b7190899f41fb70882d08/6657084f0e022fd363426fc4_favicon.png",
+      "category": "Infrastructure & Developer Tooling"
+    },
+    {
+      "name": "Covalent",
+      "url": "https://covalenthq.com",
+      "ogTitle": "Covalent",
+      "ogDescription": "Launch autonomous agents using Chain-of-Thought (CoT) models. Backed by Covalent's large reservoir of billions of rows of structured, verifiable data.",
+      "ogImage": "https://www.datocms-assets.com/86369/1737413568-og.png",
+      "iconUrl": "https://covalenthq.com/favicon.ico",
+      "category": "Infrastructure & Developer Tooling"
+    },
+    {
+      "name": "dRPC",
+      "url": "https://drpc.org",
+      "ogTitle": "dRPC — Decentralized network of RPC endpoints with unlimited scalability",
+      "ogDescription": "Decentralized RPC node provider to Ethereum, Polygon, Arbitrum and others. Your trusted Web3 infrastructure partner.",
+      "ogImage": "https://drpc.org/images/social-og-image.jpg",
+      "iconUrl": "https://drpc.org/android-chrome-192x192.png",
+      "category": "Infrastructure & Developer Tooling"
+    },
+    {
+      "name": "Dune",
+      "url": "https://dune.com",
+      "description": "Blockchain analytics platform",
+      "ogTitle": "Dune — Crypto Analytics Powered by Community.",
+      "ogDescription": "Connect, query and explore blockchain data with the world’s top analysts. Explore 100,000+ community dashboards and projects. Follow metrics for DeFi and NFTs.",
+      "ogImage": "https://cdn.prod.website-files.com/62fca6954348cf2e3c918eee/65a05882cfb55d50c355f1d8_Dune_Analytics.png",
+      "iconUrl": "https://cdn.prod.website-files.com/62fca6954348cf2e3c918eee/68134a1e33479483aded837c_Icon%20(1).png",
+      "category": "Infrastructure & Developer Tooling"
+    },
+    {
+      "name": "LayerZero",
+      "url": "https://layerzero.network",
+      "ogTitle": "Home | LayerZero",
+      "ogDescription": "An omnichain interoperability protocol. LayerZero enables the realization of cross-chain applications with a low level communication primitive.",
+      "ogImage": "https://layerzero.network/share.png",
+      "iconUrl": "https://layerzero.network/favicon.ico",
+      "category": "Infrastructure & Developer Tooling"
+    },
+    {
+      "name": "Lenscan",
+      "url": "https://lenscan.io",
+      "ogTitle": "Lenscan",
+      "ogDescription": "Lens Protocol Blockchain and Social Explorer",
+      "iconUrl": "https://lenscan.io/favicon.svg",
+      "category": "Infrastructure & Developer Tooling"
+    },
+    {
+      "name": "LiFi",
+      "url": "https://li.fi",
+      "ogTitle": "Bridge & DEX Aggregator",
+      "ogDescription": "Swap and move any crypto asset across any blockchain ecosystem.",
+      "ogImage": "https://li.fi/preview.png",
+      "iconUrl": "https://li.fi/favicon.ico",
+      "category": "Infrastructure & Developer Tooling"
+    },
+    {
+      "name": "RedStone",
+      "url": "https://redstone.finance",
+      "ogTitle": "RedStone",
+      "ogDescription": "Fast, reliable, customizable DeFi data streams for all your needs.",
+      "ogImage": "https://cdn.prod.website-files.com/67519197ce9eaef4601a6287/677f9f8bb6ae73e45b28a6fb_Variant2%20(3).png",
+      "iconUrl": "https://cdn.prod.website-files.com/67519197ce9eaef4601a6287/67616c2252d40d3dca48f4c3_fav.png",
+      "category": "Infrastructure & Developer Tooling"
+    },
+    {
+      "name": "Tenderly",
+      "url": "https://tenderly.co",
+      "description": "Blockchain analytics platform",
+      "ogTitle": "Full-Stack Web3 Infrastructure Platform | Tenderly",
+      "ogDescription": "Integrate a complete, full-stack Web3 infrastructure solution for the entire dapp lifecycle, from development to on-chain scaling. Sign up now!",
+      "ogImage": "https://tenderly.co/assets/HomePage.png",
+      "iconUrl": "https://tenderly.co/tenderly-favicon.ico",
+      "category": "Infrastructure & Developer Tooling"
+    },
+    {
+      "name": "Thirdweb",
+      "url": "https://thirdweb.com",
+      "description": "Onramp / offramp solution for Lens Chain",
+      "ogTitle": "thirdweb: The complete web3 development platform",
+      "ogDescription": "Build web3 apps and games easily with thirdweb's powerful SDKs, audited smart contracts, developer tools, and wallet infra—for Ethereum & 2000+ EVM chains. Try now. ",
+      "ogImage": "https://framerusercontent.com/assets/lln0aqz9pLm3Bkwtf3OFny0KDg.png",
+      "iconUrl": "https://framerusercontent.com/images/6UCnwoW4U3z16zLNLf31n4ZkyY.png",
+      "category": "Infrastructure & Developer Tooling"
+    },
+    {
+      "name": "Uniswap V3",
+      "url": "https://uniswap.org",
+      "description": "A DEX for Lens Chain",
+      "ogTitle": "Uniswap Interface",
+      "ogDescription": "Swap or provide liquidity on the Uniswap Protocol",
+      "ogImage": "https://app.uniswap.org/images/1200x630_Rich_Link_Preview_Image.png",
+      "iconUrl": "https://uniswap.org/favicon.png",
+      "category": "Infrastructure & Developer Tooling"
+    },
+    {
+      "name": "ZKSync",
+      "url": "https://zksync.io",
+      "description": "An Ethereum L2 stack Lens Chain is built on",
+      "handle": "@zksync",
+      "ogTitle": "The Elastic Network, Powered by ZKsync",
+      "ogDescription": "The Elastic Network: an ever expanding verifiable blockchain network built on ZKsync, secured by math. ",
+      "ogImage": "https://cdn.sanity.io/images/9oo1xd98/production/e0040587ae14c6e63e154aed28d7d29c5d354016-1200x630.png?rect=0,2,1200,627&w=1200&h=627&fit=crop&auto=format",
+      "iconUrl": "https://zksync.io/favicon.ico",
+      "category": "Infrastructure & Developer Tooling"
+    }
+  ]
+}

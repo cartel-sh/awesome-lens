@@ -1,0 +1,212 @@
+{
+  "Apps": [
+    {
+      "name": "Hey",
+      "url": "https://hey.xyz",
+      "description": "decentralized and permissionless social media app",
+      "handle": "@hey",
+      "github": "https://github.com/heyverse/hey"
+    },
+    {
+      "name": "Fountain",
+      "url": "https://fountain.ink",
+      "description": "decentralized blogging platform",
+      "handle": "@fountain",
+      "github": "https://github.com/fountain-ink/app"
+    },
+    {
+      "name": "Lemonade",
+      "url": "https://lemonade.social/",
+      "description": "platform for your shop, events and community."
+    },
+    {
+      "name": "Lens Box",
+      "url": "https://lens.box",
+      "description": "E2E encrypted instant messaging app"
+    },
+    {
+      "name": "Lens Reputation",
+      "url": "https://lensreputation.xyz",
+      "description": "decentralized reputation system",
+      "handle": "@lensreputation"
+    },
+    {
+      "name": "Orb",
+      "url": "https://orb.club",
+      "description": "mobile client for Lens Protocol",
+      "handle": "@orb"
+    },
+    {
+      "name": "Lenscan",
+      "url": "https://lenscan.io",
+      "description": "Community driven Lens chain explorer"
+    },
+    {
+      "name": "LCtips",
+      "url": "https://lctips.xyz/",
+      "description": "per-user tips data"
+    },
+    {
+      "name": "Bonsai",
+      "url": "https://onbons.ai",
+      "description": "Create & monetize agentic content on Lens",
+      "handle": "@bonsai"
+    },
+    {
+      "name": "Rekt",
+      "url": "https://rekt.news",
+      "handle": "@rekt"
+    },
+    {
+      "name": "Firefly",
+      "url": "https://firefly.social",
+      "handle": "@fireflyapp"
+    },
+    {
+      "name": "Soclly",
+      "url": "https://app.soclly.com",
+      "handle": "@socllyofficial"
+    },
+    {
+      "name": "0xppl",
+      "url": "https://0xppl.xyz",
+      "handle": "@ppl__"
+    },
+    {
+      "name": "Intract",
+      "url": "https://www.intract.io/",
+      "handle": "@intract"
+    }
+  ],
+  "Resources": [
+    {
+      "name": "FAQ",
+      "url": "https://lens.xyz/faq"
+    },
+    {
+      "name": "Docs",
+      "url": "https://lens.xyz/docs/chain/overview"
+    },
+    {
+      "name": "Developer Dashboard",
+      "url": "https://developer.lens.xyz"
+    },
+    {
+      "name": "Create Account",
+      "url": "https://onboarding.lens.xyz"
+    },
+    {
+      "name": "Block Explorer",
+      "url": "https://explorer.lens.xyz"
+    },
+    {
+      "name": "Awesome Lens",
+      "url": "https://github.com/kuhaku-xyz/awesome-lens"
+    },
+    {
+      "name": "Lens SDK",
+      "url": "https://github.com/lens-protocol/lens-sdk",
+      "description": "The official SDK for the Lens Protocol"
+    },
+    {
+      "name": "Grove",
+      "url": "https://lens.xyz/docs/storage",
+      "description": "Secure, flexible, onchain-controlled storage layer for Web3 apps."
+    }
+  ],
+  "Dune Dashboards": [
+    {
+      "name": "Lens Chain",
+      "url": "https://dune.com/lens/lens-chain",
+      "description": "general dashboard"
+    },
+    {
+      "name": "Lens Chain",
+      "url": "https://dune.com/vicnaum/lens-chain",
+      "description": "dashboard by Vicnaum",
+      "handleUrl": "https://hey.xyz/u/vicnaum"
+    },
+    {
+      "name": "GHO stable gas",
+      "url": "https://dune.com/jonaso/gho-lens",
+      "description": "GHO on LC dashboard"
+    }
+  ],
+  "Bridges": [
+    {
+      "name": "Across",
+      "url": "https://across.to"
+    },
+    {
+      "name": "Jumper",
+      "url": "https://jumper.exchange"
+    }
+  ],
+  "Infrastructure & Developer Tooling": [
+    {
+      "name": "ZKSync",
+      "url": "https://zksync.io",
+      "description": "An Ethereum L2 stack Lens Chain is built on",
+      "handle": "@zksync"
+    },
+    {
+      "name": "Avail DA",
+      "url": "https://avail.network",
+      "description": "A DA layer for Lens Chain",
+      "handle": "@avail_project"
+    },
+    {
+      "name": "Thirdweb",
+      "url": "https://thirdweb.com",
+      "description": "Onramp / offramp solution for Lens Chain"
+    },
+    {
+      "name": "Alchemy",
+      "url": "https://alchemy.com",
+      "description": "Blockchain API provider"
+    },
+    {
+      "name": "Uniswap V3",
+      "url": "https://uniswap.org",
+      "description": "A DEX for Lens Chain"
+    },
+    {
+      "name": "Tenderly",
+      "url": "https://tenderly.co",
+      "description": "Blockchain analytics platform"
+    },
+    {
+      "name": "Dune",
+      "url": "https://dune.com",
+      "description": "Blockchain analytics platform"
+    },
+    {
+      "name": "Covalent",
+      "url": "https://covalenthq.com"
+    },
+    {
+      "name": "dRPC",
+      "url": "https://drpc.org"
+    },
+    {
+      "name": "LiFi",
+      "url": "https://li.fi"
+    },
+    {
+      "name": "LayerZero",
+      "url": "https://layerzero.network"
+    },
+    {
+      "name": "Lenscan",
+      "url": "https://lenscan.io"
+    },
+    {
+      "name": "Chainlink",
+      "url": "https://chain.link"
+    },
+    {
+      "name": "RedStone",
+      "url": "https://redstone.finance"
+    }
+  ]
+}
