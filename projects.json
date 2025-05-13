@@ -4,14 +4,15 @@
       "name": "Hey",
       "url": "https://hey.xyz",
       "description": "decentralized and permissionless social media app",
-      "handle": "@hey",
+      "handle": "hey",
       "github": "https://github.com/heyverse/hey"
     },
     {
       "name": "Fountain",
       "url": "https://fountain.ink",
       "description": "decentralized blogging platform",
-      "handle": "@fountain",
+      "handle": "fountain",
+      "twitter": "fountaindotink",
       "github": "https://github.com/fountain-ink/app"
     },
     {
@@ -28,13 +29,13 @@
       "name": "Lens Reputation",
       "url": "https://lensreputation.xyz",
       "description": "decentralized reputation system",
-      "handle": "@lensreputation"
+      "handle": "lensreputation"
     },
     {
       "name": "Orb",
       "url": "https://orb.club",
       "description": "mobile client for Lens Protocol",
-      "handle": "@orb"
+      "handle": "orb"
     },
     {
       "name": "Lenscan",
@@ -44,39 +45,39 @@
     {
       "name": "LCtips",
       "url": "https://lctips.xyz/",
-      "description": "per-user tips data"
+      "description": "Visualising tips on Lens Chain"
     },
     {
       "name": "Bonsai",
       "url": "https://onbons.ai",
       "description": "Create & monetize agentic content on Lens",
-      "handle": "@bonsai"
+      "handle": "bonsai"
     },
     {
       "name": "Rekt",
       "url": "https://rekt.news",
-      "handle": "@rekt"
+      "handle": "rekt"
     },
     {
       "name": "Firefly",
       "url": "https://firefly.social",
-      "handle": "@fireflyapp"
+      "handle": "fireflyapp"
     },
     {
       "name": "Soclly",
       "url": "https://app.soclly.com",
-      "handle": "@socllyofficial"
+      "handle": "socllyofficial"
     },
     {
       "name": "0xppl",
       "url": "https://0xppl.com",
       "description": "track, trade, and follow top onchain moves effortlessly",
-      "handle": "@ppl__"
+      "handle": "ppl__"
     },
     {
       "name": "Intract",
       "url": "https://www.intract.io/",
-      "handle": "@intract"
+      "handle": "intract"
     }
   ],
   "Resources": [
@@ -148,13 +149,13 @@
       "name": "ZKSync",
       "url": "https://zksync.io",
       "description": "An Ethereum L2 stack Lens Chain is built on",
-      "handle": "@zksync"
+      "handle": "zksync"
     },
     {
       "name": "Avail DA",
       "url": "https://avail.network",
       "description": "A DA layer for Lens Chain",
-      "handle": "@avail_project"
+      "handle": "avail_project"
     },
     {
       "name": "Thirdweb",
