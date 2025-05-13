@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title: "Awesome Lens",
   description: "All Lens projects in one place",
   icons: {
-    icon: "/favicon.svg",
+    icon: "/awesomelens.png",
   },
 };
 

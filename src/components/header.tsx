@@ -3,13 +3,17 @@
 import { useTheme } from "next-themes";
 import { Button } from "@/components/ui/button";
 import { Moon, Sun } from "lucide-react";
+import Image from "next/image";
 
 export default function Header() {
   const { setTheme, theme } = useTheme();
 
   return (
     <header className="w-full flex justify-between items-center p-4 sm:px-8 mb-4 border-b border-foreground/30">
-      <h1 className="text-2xl font-bold">Awesome Lens</h1>
+      <div className="flex items-center gap-2">
+        <Image src="/awesomelens.png" alt="Awesome Lens Logo" width={32} height={32} />
+        <h1 className="text-2xl font-bold">Awesome Lens</h1>
+      </div>
       <div className="flex items-center gap-2">
         <Button
           variant="outline"
