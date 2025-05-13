@@ -69,14 +69,24 @@ async function fetchProjectMetadata(projectUrl: string): Promise<Partial<Project
             metadata.iconUrl = resolvedFaviconUrl;
           }
         }
+
+        // Fallback to /favicon.ico if no iconUrl was found from page metadata
+        if (!metadata.iconUrl) {
+          try {
+            // urlToFetch is the original URL passed to ogs, new URL('/favicon.ico', urlToFetch)
+            // correctly resolves to scheme://host/favicon.ico
+            const fallbackIconUrl = new URL('/favicon.ico', urlToFetch).href;
+            metadata.iconUrl = fallbackIconUrl;
+          } catch (e) {
+            // This catch is for safety, e.g. if urlToFetch was malformed.
+            console.warn(`Could not construct fallback /favicon.ico URL for base: ${urlToFetch} due to: ${e instanceof Error ? e.message : String(e)}`);
+          }
+        }
         return metadata; // Success
       } else {
-        // OGS call succeeded but returned success: false
         lastError = new Error(result.error || 'Unknown error from open-graph-scraper');
-        // Continue to retry logic below
       }
     } catch (error: any) {
-      // OGS call itself threw an error (e.g., network, timeout)
       lastError = error;
       const errorMessage = error instanceof Error ? error.message : String(error);
       const isRetryable = errorMessage.includes('getaddrinfo ENOTFOUND') ||
@@ -86,7 +96,6 @@ async function fetchProjectMetadata(projectUrl: string): Promise<Partial<Project
         (typeof error.type === 'string' && error.type === 'aborted');
 
       if (!isRetryable || attempt === MAX_RETRIES - 1) {
-        // Log final error and exit function
         let reason = 'Unknown error';
         if (lastError instanceof Error) reason = lastError.message;
         else if (typeof lastError === 'string') reason = lastError;
@@ -95,7 +104,6 @@ async function fetchProjectMetadata(projectUrl: string): Promise<Partial<Project
         console.warn(failureMessage);
         return {}; // Give up
       }
-      // Otherwise, it's a retryable error, continue to delay/retry logic
     }
 
     // If we reach here, a retry is needed (either OGS error or explicit catch)
@@ -112,7 +120,6 @@ async function fetchProjectMetadata(projectUrl: string): Promise<Partial<Project
     }
   }
 
-  // Should only reach here if all retries explicitly failed and loop completed
   return {};
 }
 
@@ -129,7 +136,7 @@ async function generateProjectMeta() {
   for (const category in projectsData) {
     for (const item of projectsData[category]) {
       const promise = (async () => {
-        process.stdout.write(`Fetching metadata for ${item.name} (${item.url})... `);
+        process.stdout.write(`Fetching metadata for ${item.name} (${item.url})... \n`);
 
         const metadata = await fetchProjectMetadata(item.url);
         processedItems.push({ ...item, ...metadata, category });

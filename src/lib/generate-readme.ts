@@ -1,9 +1,8 @@
 import fs from 'fs';
 import path from 'path';
-// Use TypeScript dynamic import for JSON
 import projectsDataJson from '../../projects.json';
+import projectsMetaJson from '../../projects-meta.json';
 
-// Define types for the project data
 interface ProjectItem {
   name: string;
   url: string;
@@ -11,6 +10,10 @@ interface ProjectItem {
   handle?: string;
   github?: string;
   handleUrl?: string;
+  iconUrl?: string;
+  ogTitle?: string;
+  ogDescription?: string;
+  ogImage?: string;
 }
 
 interface Projects {
@@ -18,17 +21,22 @@ interface Projects {
 }
 
 const projectsData: Projects = projectsDataJson as Projects;
+const projectsMetaData: Projects = projectsMetaJson as Projects;
 const readmePath = path.join(process.cwd(), 'README.md');
 
 let markdownContent = '# Awesome Lens \n\n';
 markdownContent += 'All Lens Chain / Lens Protocol v3 related projects in one place\n\n';
+markdownContent += 'Rendered version is available at [awesome.lens.box](https://awesome.lens.box)\n\n';
+markdownContent += 'This readme is generated directly from [projects.json](https://github.com/lens-protocol/awesome-lens/blob/main/projects.json), to contribute, please edit the json file and open a PR on [github](https://github.com/lens-protocol/awesome-lens)\n\n';
 
-for (const [category, items] of Object.entries(projectsData)) {
+for (const [category, items] of Object.entries(projectsMetaData)) {
   markdownContent += `## ${category}\n\n`;
   items.forEach((item: ProjectItem) => {
     markdownContent += `- [${item.name}](${item.url})`;
     if (item.description) {
       markdownContent += ` - ${item.description}`;
+    } else if (item.ogDescription) {
+      markdownContent += ` - ${item.ogDescription}`;
     }
     if (item.handle) {
       const profileBaseUrl = 'https://hey.xyz/u/';

@@ -69,7 +69,8 @@
     },
     {
       "name": "0xppl",
-      "url": "https://0xppl.xyz",
+      "url": "https://0xppl.com",
+      "description": "track, trade, and follow top onchain moves effortlessly",
       "handle": "@ppl__"
     },
     {
@@ -167,7 +168,7 @@
     },
     {
       "name": "Uniswap V3",
-      "url": "https://uniswap.org",
+      "url": "https://app.uniswap.org",
       "description": "A DEX for Lens Chain"
     },
     {

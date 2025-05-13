@@ -52,9 +52,10 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center min-h-screen font-[family-name:var(--font-geist-sans)]">
       <Header />
-      <main className="prose prose-neutral dark:!prose-invert lg:prose-lg prose-p:my-2 max-w-4xl p-4 sm:p-8 sm:pt-0 w-full">
+      <main className="max-w-4xl p-4 sm:p-8 sm:pt-0 w-full">
         <p>All Lens Chain / Lens Protocol projects in one place</p>
         <div className="my-4 flex items-center space-x-2">
+          <p className="text-sm text-muted-foreground">Sort methond:</p>
           <Select value={sortOrder} onValueChange={(value: string) => setSortOrder(value as SortOrder)}>
             <SelectTrigger className="w-[200px]">
               <SelectValue placeholder="Sort by" />
@@ -74,7 +75,7 @@ export default function Home() {
 
           return (
             <div key={category}>
-              <h2>{category}</h2>
+              <h2 className='font-bold text-2xl my-4'>{category}</h2>
               <div className="flex flex-col gap-2 sm:pl-4">
                 {sortedItems.map((item) => (
                   <ProjectCard key={item.url} item={item} />

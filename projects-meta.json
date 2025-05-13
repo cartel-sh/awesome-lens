@@ -2,8 +2,11 @@
   "Apps": [
     {
       "name": "0xppl",
-      "url": "https://0xppl.xyz",
+      "url": "https://0xppl.com",
+      "description": "track, trade, and follow top onchain moves effortlessly",
       "handle": "@ppl__",
+      "ogTitle": "0xPPL - Your Onchain Super App",
+      "iconUrl": "https://0xppl.com/favicon.png",
       "category": "Apps"
     },
     {
@@ -83,6 +86,7 @@
       "name": "Lens Box",
       "url": "https://lens.box",
       "description": "E2E encrypted instant messaging app",
+      "iconUrl": "https://lens.box/favicon.ico",
       "category": "Apps"
     },
     {
@@ -93,6 +97,7 @@
       "ogTitle": "Lens Reputation",
       "ogDescription": "Track and showcase your reputation on Lens Network",
       "ogImage": "logo.png",
+      "iconUrl": "https://lensreputation.xyz/favicon.ico",
       "category": "Apps"
     },
     {
@@ -142,7 +147,7 @@
       "url": "https://github.com/kuhaku-xyz/awesome-lens",
       "ogTitle": "GitHub - kuhaku-xyz/awesome-lens: a collection of awesome lens projects",
       "ogDescription": "a collection of awesome lens projects. Contribute to kuhaku-xyz/awesome-lens development by creating an account on GitHub.",
-      "ogImage": "https://opengraph.githubassets.com/f17dc5f5462f9b3184cedfd95f45d08153649440ff19605ddfee24ed2dc64815/kuhaku-xyz/awesome-lens",
+      "ogImage": "https://opengraph.githubassets.com/9e5aa94e21a50595fde644c02448ca2e5cf4ece2d4656dbb08942f80f20146d5/kuhaku-xyz/awesome-lens",
       "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
       "category": "Resources"
     },
@@ -373,12 +378,12 @@
     },
     {
       "name": "Uniswap V3",
-      "url": "https://uniswap.org",
+      "url": "https://app.uniswap.org",
       "description": "A DEX for Lens Chain",
       "ogTitle": "Uniswap Interface",
       "ogDescription": "Swap or provide liquidity on the Uniswap Protocol",
       "ogImage": "https://app.uniswap.org/images/1200x630_Rich_Link_Preview_Image.png",
-      "iconUrl": "https://uniswap.org/favicon.png",
+      "iconUrl": "https://app.uniswap.org/favicon.png",
       "category": "Infrastructure & Developer Tooling"
     },
     {
