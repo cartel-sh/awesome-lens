@@ -134,14 +134,25 @@
       "description": "GHO on LC dashboard"
     }
   ],
-  "Bridges": [
+  "DeFi": [
     {
       "name": "Across",
       "url": "https://across.to"
     },
     {
       "name": "Jumper",
-      "url": "https://jumper.exchange"
+      "url": "https://jumper.exchange",
+      "description": "Multi-chain liquidity aggregator"
+    },
+    {
+      "name": "LayerZero",
+      "url": "https://layerzero.network",
+      "description": "Cross-chain communication protocol"
+    },
+    {
+      "name": "Oku Trade",
+      "url": "https://oku.trade",
+      "description": "non-custodial DeFi meta-aggregator"
     }
   ],
   "Infrastructure & Developer Tooling": [
@@ -153,7 +164,7 @@
     },
     {
       "name": "Avail DA",
-      "url": "https://avail.network",
+      "url": "https://www.availproject.org/",
       "description": "A DA layer for Lens Chain",
       "handle": "avail_project"
     },
