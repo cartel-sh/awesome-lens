@@ -112,6 +112,10 @@
       "url": "https://github.com/kuhaku-xyz/awesome-lens"
     },
     {
+      "name": "Lens Next Starter",
+      "url": "https://github.com/kuhaku-xyz/lens-starter"
+    },
+    {
       "name": "Lens SDK",
       "url": "https://github.com/lens-protocol/lens-sdk",
       "description": "The official SDK for the Lens Protocol"
@@ -161,7 +165,7 @@
       "description": "non-custodial DeFi meta-aggregator"
     }
   ],
-  "Infrastructure & Developer Tooling": [
+  "Infra": [
     {
       "name": "ZKSync",
       "url": "https://zksync.io",

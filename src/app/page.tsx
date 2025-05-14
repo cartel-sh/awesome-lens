@@ -46,7 +46,7 @@ const sortProjects = (items: ProjectItem[], order: SortOrder): ProjectItem[] => 
 };
 
 export default function Home() {
-  const [sortOrder, setSortOrder] = useState<SortOrder>("alphabetical");
+  const [sortOrder, setSortOrder] = useState<SortOrder>("openSourceFirst");
   const [clientProjects, setClientProjects] = useState<Projects>(projects);
 
   return (
