@@ -21,6 +21,12 @@
       "description": "platform for your shop, events and community."
     },
     {
+      "name": "Bloomers",
+      "url": "https://bloomers.tv/",
+      "description": "Open-source live-streaming platform.",
+      "github": "https://github.com/bloomerstv/bloomerstv"
+    },
+    {
       "name": "Lens Box",
       "url": "https://lens.box",
       "description": "E2E encrypted instant messaging app"
