@@ -46,7 +46,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ item }) => {
         {item.iconUrl ? (
           <img
             src={item.iconUrl}
-            className="w-4 h-4 mr-3 mt-1 rounded-full object-cover flex-shrink-0"
+            className="w-4 h-4 mr-3 mt-1 rounded-sm object-cover flex-shrink-0"
             onError={(e) => {
               e.currentTarget.style.display = 'none';
               console.warn(`Failed to load icon: ${item.iconUrl} for ${item.name}`);
