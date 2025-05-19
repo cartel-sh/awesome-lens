@@ -126,7 +126,7 @@
       "description": "Secure, flexible, onchain-controlled storage layer for Web3 apps."
     }
   ],
-  "Dune Dashboards": [
+  "Dashboards": [
     {
       "name": "Lens Chain",
       "url": "https://dune.com/lens/lens-chain",
@@ -142,6 +142,11 @@
       "name": "GHO stable gas",
       "url": "https://dune.com/jonaso/gho-lens",
       "description": "GHO on LC dashboard"
+    },
+    {
+      "name": "Disco",
+      "url": "https://disco.l2beat.com/ui/p/lens",
+      "description": "Lens Chain onchain connections dashboard"
     }
   ],
   "DeFi": [
@@ -171,6 +176,11 @@
       "url": "https://zksync.io",
       "description": "An Ethereum L2 stack Lens Chain is built on",
       "handle": "zksync"
+    },
+    {
+      "name": "L2Beat",
+      "url": "https://l2beat.com/scaling/projects/lens",
+      "description": "L2Beat is a platform for tracking and analyzing Layer 2 networks. It provides real-time data on transaction volumes, user activity, and other metrics, helping users stay updated on the latest developments in the Layer 2 space."
     },
     {
       "name": "Avail DA",
