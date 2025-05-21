@@ -32,6 +32,17 @@
       "description": "E2E encrypted instant messaging app"
     },
     {
+      "name": "Bad Art",
+      "url": "https://art.lens.box",
+      "description": "A serious place for unserious art",
+      "github": "https://github.com/kuhaku-xyz/draw"
+    },
+    {
+      "name": "Lora",
+      "url": "https://onlora.ai",
+      "description": "GenAi platform for vibe artists",
+    },
+    {
       "name": "Lens Reputation",
       "url": "https://lensreputation.xyz",
       "description": "decentralized reputation system",
