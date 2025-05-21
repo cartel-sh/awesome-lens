@@ -10,7 +10,7 @@ export default function Header() {
 
   return (
     <header className="w-full flex justify-between items-center p-4 sm:px-8 mb-4 border-b border-foreground/30">
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-2 sm:gap-4">
         <Image src="/awesomelens.png" alt="Awesome Lens Logo" width={32} height={32} />
         <h1 className="text-2xl font-bold">Awesome Lens</h1>
       </div>

@@ -25,9 +25,8 @@ const projectsMetaData: Projects = projectsMetaJson as Projects;
 const readmePath = path.join(process.cwd(), 'README.md');
 
 let markdownContent = '# Awesome Lens \n\n';
-markdownContent += 'All Lens Chain / Lens Protocol v3 related projects in one place\n\n';
-markdownContent += 'Rendered version is available at [awesome.lens.box](https://awesome.lens.box)\n\n';
-markdownContent += 'This readme is generated directly from [projects.json](https://github.com/lens-protocol/awesome-lens/blob/main/projects.json), to contribute, please edit the json file and open a PR on [github](https://github.com/lens-protocol/awesome-lens)\n\n';
+markdownContent += 'Hosted version is available at [awesome.lens.box](https://awesome.lens.box)\n\n';
+markdownContent += 'This readme is generated from [projects.json](https://github.com/lens-protocol/awesome-lens/blob/main/projects.json), to contribute, please edit the json file and open a PR on [github](https://github.com/lens-protocol/awesome-lens)\n\n';
 
 for (const [category, items] of Object.entries(projectsMetaData)) {
   markdownContent += `## ${category}\n\n`;

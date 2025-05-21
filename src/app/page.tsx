@@ -53,7 +53,6 @@ export default function Home() {
     <div className="flex flex-col items-center min-h-screen font-[family-name:var(--font-geist-sans)]">
       <Header />
       <main className="max-w-4xl p-4 sm:p-8 sm:pt-0 w-full">
-        <p>All Lens Chain / Lens Protocol projects in one place</p>
         <div className="my-4 flex items-center space-x-2">
           <p className="text-sm text-muted-foreground">Sort methond:</p>
           <Select value={sortOrder} onValueChange={(value: string) => setSortOrder(value as SortOrder)}>

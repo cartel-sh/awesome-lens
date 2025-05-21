@@ -49,6 +49,16 @@
       "handle": "lensreputation"
     },
     {
+      "name": "Lens Account Interface",
+      "url": "https://account.fkng.social",
+      "description": "Account testing chamber with ability to transfer ownership"
+    },
+    {
+      "name": "WGHO wrapper",
+      "url": "https://gho.fkng.org/",
+      "description": "Wrap/Unwrap GHO on the owner wallet"
+    },
+    {
       "name": "Orb",
       "url": "https://orb.club",
       "description": "mobile client for Lens Protocol",

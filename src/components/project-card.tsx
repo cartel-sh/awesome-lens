@@ -78,7 +78,13 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ item }) => {
         </div>
       </div>
       {isExpanded && (
-        <div className="mt-4 p-4 pt-2 border-t border-dashed max-w-[450px] border border-border rounded-md dark:border-gray-600">
+        <div
+          className="mt-4 p-4 pt-2 border-t border-dashed max-w-[450px] border border-border rounded-md dark:border-gray-600 cursor-pointer hover:bg-muted/50 transition-colors duration-150"
+          onClick={(e) => {
+            e.stopPropagation();
+            window.open(item.url, '_blank');
+          }}
+        >
           {item.ogTitle && <h3 className="text-lg font-semibold mb-2">{item.ogTitle}</h3>}
           {item.ogImage && <img src={item.ogImage} alt={item.ogTitle || item.name} className="rounded-md mb-3 max-h-60 object-contain" />}
           {displayDescription && <p className="text-sm text-gray-700 dark:text-gray-300 mb-3 whitespace-pre-wrap">{displayDescription}</p>}
