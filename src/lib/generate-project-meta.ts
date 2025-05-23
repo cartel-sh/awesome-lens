@@ -138,14 +138,23 @@ async function generateProjectMeta() {
       const promise = (async () => {
         process.stdout.write(`Fetching metadata for ${item.name} (${item.url})... \n`);
 
-        const metadata = await fetchProjectMetadata(item.url);
-        processedItems.push({ ...item, ...metadata, category });
+        const originalItemIconUrl = item.iconUrl;
 
-        const foundMeta = metadata.iconUrl || metadata.ogImage;
-        if (foundMeta) {
-          process.stdout.write(`found: ${foundMeta}\n`);
+        const fetchedMetadata = await fetchProjectMetadata(item.url);
+
+        const mergedItem = { ...item, ...fetchedMetadata, category };
+
+        if (originalItemIconUrl) {
+          mergedItem.iconUrl = originalItemIconUrl;
+        }
+
+        processedItems.push(mergedItem);
+
+        const foundMetaForLog = mergedItem.iconUrl || mergedItem.ogImage;
+        if (foundMetaForLog) {
+          process.stdout.write(`metadata processed. Final icon: ${mergedItem.iconUrl || 'none'}, OG Image: ${mergedItem.ogImage || 'none'}\n`);
         } else {
-          process.stdout.write("not found.\n");
+          process.stdout.write("no icon or OG image found.\n");
         }
         await new Promise(resolve => setTimeout(resolve, 100));
       })();

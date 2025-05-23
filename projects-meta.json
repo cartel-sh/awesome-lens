@@ -149,12 +149,12 @@
     {
       "name": "Orb",
       "url": "https://orb.club",
-      "description": "mobile client for Lens Protocol",
+      "iconUrl": "https://orb.club/assets/orb-logo-black.svg",
+      "description": "web3 for artists, creators, degens, and you!",
       "handle": "orb",
       "ogTitle": "orb: discover fun in web3",
       "ogDescription": "built for artists, creators, degens, and you!",
       "ogImage": "https://orb.club/assets/landing_preview.png",
-      "iconUrl": "https://orb.club/favicon.ico",
       "category": "Apps"
     },
     {
@@ -193,7 +193,7 @@
       "url": "https://github.com/kuhaku-xyz/awesome-lens",
       "ogTitle": "GitHub - kuhaku-xyz/awesome-lens: a collection of awesome lens projects",
       "ogDescription": "a collection of awesome lens projects. Contribute to kuhaku-xyz/awesome-lens development by creating an account on GitHub.",
-      "ogImage": "https://opengraph.githubassets.com/ae064a9d62655a783a4c810a407a39af2dc1d67db6c1524a29f51e73df7fcccc/kuhaku-xyz/awesome-lens",
+      "ogImage": "https://opengraph.githubassets.com/16a6b4d8112c99b7ef491a421d5436e7ae3c563159cdbb39a2233583a5779675/kuhaku-xyz/awesome-lens",
       "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
       "category": "Resources"
     },
@@ -256,7 +256,7 @@
       "url": "https://github.com/kuhaku-xyz/lens-starter",
       "ogTitle": "GitHub - kuhaku-xyz/lens-starter: a nextjs lens starter template",
       "ogDescription": "a nextjs lens starter template. Contribute to kuhaku-xyz/lens-starter development by creating an account on GitHub.",
-      "ogImage": "https://opengraph.githubassets.com/3169af27eb5d0a8606c1a3d507f58a1096c33f572143c740db6f5b77170ab2c0/kuhaku-xyz/lens-starter",
+      "ogImage": "https://opengraph.githubassets.com/22a76d78ff83dc6e1b62930db41184657bf36308ce68d150f13a36ee359ca010/kuhaku-xyz/lens-starter",
       "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
       "category": "Resources"
     },
@@ -266,7 +266,7 @@
       "description": "The official SDK for the Lens Protocol",
       "ogTitle": "GitHub - lens-protocol/lens-sdk: The official SDK to interact with the Lens Protocol",
       "ogDescription": "The official SDK to interact with the Lens Protocol - lens-protocol/lens-sdk",
-      "ogImage": "https://opengraph.githubassets.com/ab9edbbc20c7b64f7ab0c815298dfe642bb9f79c1cd3e2137c7b245ac791e476/lens-protocol/lens-sdk",
+      "ogImage": "https://opengraph.githubassets.com/1c43b1c2613d3ffbad0c5f1c752ab76689fa2a8aa2934a66cdc0711161747bf7/lens-protocol/lens-sdk",
       "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
       "category": "Resources"
     }
@@ -294,22 +294,22 @@
     },
     {
       "name": "Lens Chain",
+      "url": "https://dune.com/lens/lens-chain",
+      "description": "general dashboard",
+      "ogTitle": "Lens Chain",
+      "ogDescription": "Dune is the all-in-one crypto data platform — query with SQL, stream data via APIs & DataShare, and publish interactive dashboards across 100+ blockchains.",
+      "ogImage": "https://core-api.dune.com/public/screenshot?url=https://dune.com/lens/lens-chain",
+      "iconUrl": "https://dune.com/assets/glyph-1024w.png",
+      "category": "Dashboards"
+    },
+    {
+      "name": "Lens Chain",
       "url": "https://dune.com/vicnaum/lens-chain",
       "description": "dashboard by Vicnaum",
       "handleUrl": "https://hey.xyz/u/vicnaum",
       "ogTitle": "Lens Chain",
       "ogDescription": "Dune is the all-in-one crypto data platform — query with SQL, stream data via APIs & DataShare, and publish interactive dashboards across 100+ blockchains.",
       "ogImage": "https://core-api.dune.com/public/screenshot?url=https://dune.com/vicnaum/lens-chain",
-      "iconUrl": "https://dune.com/assets/glyph-1024w.png",
-      "category": "Dashboards"
-    },
-    {
-      "name": "Lens Chain",
-      "url": "https://dune.com/lens/lens-chain",
-      "description": "general dashboard",
-      "ogTitle": "Lens Chain",
-      "ogDescription": "Dune is the all-in-one crypto data platform — query with SQL, stream data via APIs & DataShare, and publish interactive dashboards across 100+ blockchains.",
-      "ogImage": "https://core-api.dune.com/public/screenshot?url=https://dune.com/lens/lens-chain",
       "iconUrl": "https://dune.com/assets/glyph-1024w.png",
       "category": "Dashboards"
     }
