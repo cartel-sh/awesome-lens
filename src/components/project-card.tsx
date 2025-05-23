@@ -1,10 +1,11 @@
 "use client"
 
 import { useState } from "react";
+import { Badge } from "./ui/badge";
 
 interface ProjectItem {
   name: string;
-  url: string;
+  url?: string;
   description?: string;
   ogDescription?: string;
   ogTitle?: string;
@@ -14,6 +15,7 @@ interface ProjectItem {
   handleUrl?: string;
   iconUrl?: string;
   twitter?: string;
+  tags?: string[];
 }
 
 interface ProjectCardProps {
@@ -55,14 +57,14 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ item }) => {
         ) : (
           <div className="w-4 h-4 mr-3 mt-1 rounded-full flex-shrink-0"></div>
         )}
-        <div className="flex-grow flex items-baseline">
+        <div className="flex-grow flex gap-2 items-baseline">
           <span className="flex-shrink min-w-0 max-w-[600px] overflow-hidden whitespace-nowrap text-ellipsis">
-            <a href={item.url} target="_blank" rel="noopener noreferrer" className="font-semibold decoration-gray-400 no-underline underline-offset-4 hover:underline" onClick={(e) => e.stopPropagation()}>{item.name}</a>
+            <a href={item.url || item.github} target="_blank" rel="noopener noreferrer" className="font-semibold decoration-gray-400 no-underline underline-offset-4 hover:underline" onClick={(e) => e.stopPropagation()}>{item.name}</a>
             {displayDescription && !isExpanded && <span className="inline text-gray-600 dark:text-gray-400"> - {displayDescription}</span>}
           </span>
 
           {item.github && !isExpanded && (
-            <a href={item.github} target="_blank" rel="noopener noreferrer" className="ml-2 text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100" onClick={(e) => e.stopPropagation()}>
+            <a href={item.github} target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100" onClick={(e) => e.stopPropagation()}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -75,6 +77,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ item }) => {
               </svg>
             </a>
           )}
+          {item.tags && item.tags.length > 0 && !isExpanded && (
+            <Badge variant="secondary">
+              {item.tags.map(tag => `${tag}`).join(' ')}
+            </Badge>
+          )}
         </div>
       </div>
       {isExpanded && (
@@ -82,14 +89,26 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ item }) => {
           className="mt-4 p-4 pt-2 border-t border-dashed max-w-[450px] border border-border rounded-md dark:border-gray-600 cursor-pointer hover:bg-muted/50 transition-colors duration-150"
           onClick={(e) => {
             e.stopPropagation();
-            window.open(item.url, '_blank');
+            window.open(item.url || item.github, '_blank');
           }}
         >
           {item.ogTitle && <h3 className="text-lg font-semibold mb-2">{item.ogTitle}</h3>}
           {item.ogImage && <img src={item.ogImage} alt={item.ogTitle || item.name} className="rounded-md mb-3 max-h-60 object-contain" />}
           {displayDescription && <p className="text-sm text-gray-700 dark:text-gray-300 mb-3 whitespace-pre-wrap">{displayDescription}</p>}
 
-          {(item.handle || item.github) && (
+          {item.tags && item.tags.length > 0 && (
+            <div className="mb-3">
+              <div className="flex flex-wrap gap-2">
+                {item.tags.map((tag) => (
+                  <Badge key={tag} variant="secondary">
+                    {tag}
+                  </Badge>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {(item.handle || item.github || item.twitter) && (
             <div className="mt-3 pt-3 border-t border-dashed border-gray-300 dark:border-gray-600">
               <h4 className="text-md font-semibold mb-2">Socials</h4>
               <div className="flex flex-col space-y-1">

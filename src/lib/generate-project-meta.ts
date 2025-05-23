@@ -1,20 +1,7 @@
 import fs from 'fs';
 import path from 'path';
-// node-fetch, AbortController, and cheerio are no longer needed
 import ogs from 'open-graph-scraper';
-
-interface ProjectItem {
-  name: string;
-  url: string;
-  description?: string;
-  handle?: string;
-  github?: string;
-  handleUrl?: string;
-  iconUrl?: string;
-  ogImage?: string;
-  ogTitle?: string;
-  ogDescription?: string;
-}
+import { ProjectItem } from './types';
 
 interface Projects {
   [category: string]: ProjectItem[];
@@ -136,11 +123,11 @@ async function generateProjectMeta() {
   for (const category in projectsData) {
     for (const item of projectsData[category]) {
       const promise = (async () => {
-        process.stdout.write(`Fetching metadata for ${item.name} (${item.url})... \n`);
+        process.stdout.write(`Fetching metadata for ${item.name} (${item.url || item.github})... \n`);
 
         const originalItemIconUrl = item.iconUrl;
 
-        const fetchedMetadata = await fetchProjectMetadata(item.url);
+        const fetchedMetadata = await fetchProjectMetadata(item.url || item.github!);
 
         const mergedItem = { ...item, ...fetchedMetadata, category };
 

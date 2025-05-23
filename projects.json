@@ -35,12 +35,19 @@
       "name": "Bad Art",
       "url": "https://art.lens.box",
       "description": "A serious place for unserious art",
-      "github": "https://github.com/kuhaku-xyz/draw"
+      "github": "https://github.com/kuhaku-xyz/draw",
+      "tags": [
+        "Spring Hackathon"
+      ]
     },
     {
       "name": "Lora",
       "url": "https://onlora.ai",
-      "description": "GenAi platform for vibe artists"
+      "description": "GenAi platform for vibe artists",
+      "github": "https://github.com/onlora/onlora",
+      "tags": [
+        "Spring Hackathon"
+      ]
     },
     {
       "name": "Lens Reputation",
@@ -61,8 +68,26 @@
     {
       "name": "Orb",
       "url": "https://orb.club",
-      "description": "web3 for artists, creators, degens, and you!", 
+      "description": "web3 for artists, creators, degens, and you!",
       "handle": "orb"
+    },
+    {
+      "name": "MoodFi",
+      "url": "https://mood-fi.vercel.app",
+      "description": "Upload mood-based images, receive AI-powered mood analysis, and earn rewards",
+      "github": "https://github.com/Nocena/MoodFi",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "Lenx",
+      "github": "https://github.com/slvDev/lenx",
+      "url": "https://lenx.dev/",
+      "description": "Link your X to your Lens",
+      "tags": [
+        "Spring Hackathon"
+      ]
     },
     {
       "name": "Lenscan",
@@ -105,6 +130,294 @@
       "name": "Intract",
       "url": "https://www.intract.io/",
       "handle": "intract"
+    },
+    {
+      "name": "Believr",
+      "url": "https://www.believr.fun/",
+      "description": "Co-investing platform where early believers back creators they believe in",
+      "github": "https://github.com/believr-xyz/believr",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "Fameish",
+      "url": "https://testnet.fameish.day/",
+      "description": "Become the most-followed account for a day",
+      "github": "https://github.com/iPaulPro/fameish",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "Lens Spaces",
+      "description": "Stream. Share. Own the Moment.",
+      "url": "https://lens-spaces.vercel.app/",
+      "github": "https://github.com/prakhar728/lens-spaces",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    }
+  ],
+  "Other": [
+    {
+      "name": "Contract Level Competitions",
+      "github": "https://github.com/contractlevel/competitions",
+      "description": "Create and participate in transparent, community-driven competitions",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "GhoPay",
+      "url": "https://github.com/harry-sketch/ghopay",
+      "description": "Buy and send GHO on Lens Chain",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "Lens Prophet Lab",
+      "url": "https://github.com/ubinhash/lens-prophet-lab",
+      "description": "User-centric social prediction platform",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "LensTask",
+      "description": "Ask questions or post small tasks",
+      "github": "https://github.com/LensTask/lensTask",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "AgoraLens",
+      "description": "Decentralized Community Platform",
+      "github": "https://github.com/lucasespinosa28/AgoraLens",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "LensPad",
+      "description": "ICO launch platform that's powered by reputation and community",
+      "github": "https://github.com/priom/lenspad",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "Memed",
+      "description": "Meme token generator",
+      "url": "https://www.memed.fun/",
+      "github": "https://github.com/furkannabisumji/memed",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "ChainSphere",
+      "description": "Enhancing Social Media Engagement and Rewards",
+      "github": "https://github.com/Felabs1/ChainSphere",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "MR.RED",
+      "description": "Retro-themed social media platform built",
+      "url": "https://mrred.vercel.app/",
+      "github": "https://github.com/itsanishjain/mrred",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "Clash of Lens",
+      "description": "A SocialFi Clan War Game",
+      "github": "https://github.com/LeoFranklin015/Clash-of-Lens",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "optic.social",
+      "description": "Subscription-first SocialFi on Lens",
+      "url": "https://optic-social.vercel.app/",
+      "github": "https://github.com/ardasarico/optic.social",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "Web3Lancer",
+      "description": "Global hub for freelancers and creators to connect, collaborate, and earn crypto",
+      "github": "https://github.com/web3lancer/web3lancer",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "WriteOn",
+      "description": "Write, Contribute, Earn - AI-Powered Content Campaigns",
+      "github": "https://github.com/lens-write-on/write-on-nextjs",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "Bonsai Garden RPG",
+      "url": "https://bonsai-garden-game.vercel.app/",
+      "github": "https://github.com/BrunoEleodoro/bonsai-garden-game",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "Drivelens",
+      "github": "https://github.com/ofemeteng/ai-car-rec",
+      "description": "AI Car Recommendations",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "Syndicate",
+      "description": "Onchain lottery system",
+      "url": "https://syndicate.vercel.app/",
+      "github": "https://github.com/thisyearnofear/syndicate-frontend",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "LensMemeBot",
+      "description": "Telegram bot that lets anyone deploy a verified ERC-20 meme token on the Lens Chain",
+      "github": "https://github.com/nullxplorer/lensmemebot",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "BEAMN Arcade",
+      "description": "Next Generation On-Chain Arcade",
+      "github": "https://github.com/sunshinevendetta/beamnblokdrop",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "EverQuiz",
+      "description": "Social quiz and party game platform",
+      "github": "https://github.com/aeither/everquiz",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "Lentlify",
+      "description": "Decentralized Ad Campaigns platform",
+      "github": "https://github.com/Nester-xyz/lentlify",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "TruthCast",
+      "description": "Worlds first Steganography Power Social Media",
+      "github": "https://github.com/sairammr/TruthCast",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "Lens Messaging App",
+      "description": "Decentralized messaging app",
+      "github": "https://github.com/shoto290/lens-messaging-app",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "Decentrahub",
+      "description": "Decentralized content marketplace",
+      "github": "https://github.com/joseph3559/decentrahub",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "PredictLens",
+      "url": "https://predict-lens.vercel.app/",
+      "description": "Social prediction markets powered by Lens Protocol and quadratic voting",
+      "github": "https://github.com/kamalbuilds/Predictlens",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "BeTheNation",
+      "description": "Perpetual prediction market for countries",
+      "github": "https://github.com/BeTheNation-Lens/fe",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "Ragnet",
+      "description": "Your AI DevRel for Open Source Communities",
+      "github": "https://github.com/ragnet-in/infra",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "Lensight",
+      "description": "Decentralized prediction market platform",
+      "github": "https://github.com/consolexyz/lensight",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "Wherewolf",
+      "github": "https://github.com/Trymbakmahant/lens-hack",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "Lens Capital",
+      "description": "Discover & Invest in Lens Creators",
+      "github": "https://github.com/sparkidea25/lens-hackathon",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "LensJobs",
+      "github": "https://github.com/AbdulrazaqAS/lens-jobs",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "Pinkcollar",
+      "description": "social network for fashion creators, collaborators, and fans",
+      "github": "https://github.com/bncyrbt/pinkcollar",
+      "tags": [
+        "Spring Hackathon"
+      ]
+    },
+    {
+      "name": "LensCollective",
+      "description": "Content curation platform",
+      "github": "https://github.com/Dafalahl/LensCollective",
+      "tags": [
+        "Spring Hackathon"
+      ]
     }
   ],
   "Resources": [
@@ -127,6 +440,14 @@
     {
       "name": "Block Explorer",
       "url": "https://explorer.lens.xyz"
+    },
+    {
+      "name": "Lens Quick Widgets",
+      "description": "A React library to quickly start developing with Lens Protocol",
+      "github": "https://github.com/RathodDeven/lens-quick-widgets",
+      "tags": [
+        "Spring Hackathon"
+      ]
     },
     {
       "name": "Awesome Lens",

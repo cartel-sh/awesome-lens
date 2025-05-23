@@ -20,6 +20,19 @@
       "category": "Apps"
     },
     {
+      "name": "Believr",
+      "url": "https://www.believr.fun/",
+      "description": "Co-investing platform where early believers back creators they believe in",
+      "github": "https://github.com/believr-xyz/believr",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "Believr — The social platform for early believers and creators",
+      "ogDescription": "Believr is a decentralized social platform where early believers co-invest in creators they believe in and share in their rise. Built on Lens Protocol, it enables creators to launch tokenized posts or campaigns to gain support, while backers earn rewards, access, and a stake in their journey.",
+      "iconUrl": "https://www.believr.fun/favicon.svg",
+      "category": "Apps"
+    },
+    {
       "name": "Bloomers",
       "url": "https://bloomers.tv/",
       "description": "Open-source live-streaming platform.",
@@ -36,6 +49,19 @@
       "ogDescription": "Bonsai: Smart Media Protocol - AI-Powered, Onchain Social Content.",
       "ogImage": "https://onbons.ai/opengraph-image.png?486161960a3c643e",
       "iconUrl": "https://onbons.ai/favicon.ico",
+      "category": "Apps"
+    },
+    {
+      "name": "Fameish",
+      "url": "https://testnet.fameish.day/",
+      "description": "Become the most-followed account for a day",
+      "github": "https://github.com/iPaulPro/fameish",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "Fameish",
+      "ogDescription": "Become the most-followed person on Lens, for a day",
+      "iconUrl": "https://testnet.fameish.day/favicon.ico",
       "category": "Apps"
     },
     {
@@ -129,6 +155,20 @@
       "category": "Apps"
     },
     {
+      "name": "Lens Spaces",
+      "description": "Stream. Share. Own the Moment.",
+      "url": "https://lens-spaces.vercel.app/",
+      "github": "https://github.com/prakhar728/lens-spaces",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "Lens Spaces | Stream. Share. Own the Moment.",
+      "ogDescription": "A decentralized streaming platform built on Lens Protocol",
+      "ogImage": "logo-without-bg.png",
+      "iconUrl": "https://lens-spaces.vercel.app/favicon.ico",
+      "category": "Apps"
+    },
+    {
       "name": "Lenscan",
       "url": "https://lenscan.io",
       "description": "Community driven Lens chain explorer",
@@ -138,9 +178,26 @@
       "category": "Apps"
     },
     {
+      "name": "Lenx",
+      "github": "https://github.com/slvDev/lenx",
+      "url": "https://lenx.dev/",
+      "description": "Link your X to your Lens",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "LenX",
+      "ogDescription": "Link your X handle to your Lens profile",
+      "iconUrl": "https://lenx.dev/LenX.png",
+      "category": "Apps"
+    },
+    {
       "name": "Lora",
       "url": "https://onlora.ai",
       "description": "GenAi platform for vibe artists",
+      "github": "https://github.com/onlora/onlora",
+      "tags": [
+        "Spring Hackathon"
+      ],
       "ogTitle": "onlora.ai",
       "ogDescription": "AI Generated Vibes",
       "iconUrl": "https://onlora.ai/favicon.ico",
@@ -149,12 +206,12 @@
     {
       "name": "Orb",
       "url": "https://orb.club",
-      "iconUrl": "https://orb.club/assets/orb-logo-black.svg",
       "description": "web3 for artists, creators, degens, and you!",
       "handle": "orb",
       "ogTitle": "orb: discover fun in web3",
       "ogDescription": "built for artists, creators, degens, and you!",
       "ogImage": "https://orb.club/assets/landing_preview.png",
+      "iconUrl": "https://orb.club/favicon.ico",
       "category": "Apps"
     },
     {
@@ -187,13 +244,435 @@
       "category": "Apps"
     }
   ],
+  "Other": [
+    {
+      "name": "AgoraLens",
+      "description": "Decentralized Community Platform",
+      "github": "https://github.com/lucasespinosa28/AgoraLens",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "GitHub - lucasespinosa28/AgoraLens",
+      "ogDescription": "Contribute to lucasespinosa28/AgoraLens development by creating an account on GitHub.",
+      "ogImage": "https://opengraph.githubassets.com/a7b2dc4a7d1efcfdc07b3201f2800e54a176e54130ea6c41f8689f57819a5d51/lucasespinosa28/AgoraLens",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "category": "Other"
+    },
+    {
+      "name": "BEAMN Arcade",
+      "description": "Next Generation On-Chain Arcade",
+      "github": "https://github.com/sunshinevendetta/beamnblokdrop",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "GitHub - sunshinevendetta/beamnblokdrop",
+      "ogDescription": "Contribute to sunshinevendetta/beamnblokdrop development by creating an account on GitHub.",
+      "ogImage": "https://opengraph.githubassets.com/3c67b47770114fc8d4edb6c8b3e9a0b24af6698e9ef5ee315e82d4063a959057/sunshinevendetta/beamnblokdrop",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "category": "Other"
+    },
+    {
+      "name": "BeTheNation",
+      "description": "Perpetual prediction market for countries",
+      "github": "https://github.com/BeTheNation-Lens/fe",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "GitHub - BeTheNation-Lens/fe",
+      "ogDescription": "Contribute to BeTheNation-Lens/fe development by creating an account on GitHub.",
+      "ogImage": "https://opengraph.githubassets.com/0b93cb145a0fe746ae9edd7d2fadbd29068a3861306d8bced11872f9932b65c3/BeTheNation-Lens/fe",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "category": "Other"
+    },
+    {
+      "name": "Bonsai Garden RPG",
+      "url": "https://bonsai-garden-game.vercel.app/",
+      "github": "https://github.com/BrunoEleodoro/bonsai-garden-game",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "Bonsai Garden RPG",
+      "ogDescription": "A lush, mysterious, and immersive dark green RPG garden adventure.",
+      "iconUrl": "https://bonsai-garden-game.vercel.app/favicon.ico",
+      "category": "Other"
+    },
+    {
+      "name": "ChainSphere",
+      "description": "Enhancing Social Media Engagement and Rewards",
+      "github": "https://github.com/Felabs1/ChainSphere",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "GitHub - Felabs1/ChainSphere",
+      "ogDescription": "Contribute to Felabs1/ChainSphere development by creating an account on GitHub.",
+      "ogImage": "https://opengraph.githubassets.com/a473ed2f17de42498f2cc4b77624c107f99f87601d220ec29cc0bbbdcb389452/Felabs1/ChainSphere",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "category": "Other"
+    },
+    {
+      "name": "Clash of Lens",
+      "description": "A SocialFi Clan War Game",
+      "github": "https://github.com/LeoFranklin015/Clash-of-Lens",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "GitHub - LeoFranklin015/Clash-of-Lens",
+      "ogDescription": "Contribute to LeoFranklin015/Clash-of-Lens development by creating an account on GitHub.",
+      "ogImage": "https://opengraph.githubassets.com/b774e33ad4a00a5a7201e7e2c50214d50c816cd2306db460904c5d119206969a/LeoFranklin015/Clash-of-Lens",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "category": "Other"
+    },
+    {
+      "name": "Contract Level Competitions",
+      "github": "https://github.com/contractlevel/competitions",
+      "description": "Create and participate in transparent, community-driven competitions",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "GitHub - contractlevel/competitions",
+      "ogDescription": "Contribute to contractlevel/competitions development by creating an account on GitHub.",
+      "ogImage": "https://opengraph.githubassets.com/656aa74dee92d73aaa0f4ca33d7b5ed87076b9c750c781bfd6cd93df6a9b0ebc/contractlevel/competitions",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "category": "Other"
+    },
+    {
+      "name": "Decentrahub",
+      "description": "Decentralized content marketplace",
+      "github": "https://github.com/joseph3559/decentrahub",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "GitHub - joseph3559/decentrahub",
+      "ogDescription": "Contribute to joseph3559/decentrahub development by creating an account on GitHub.",
+      "ogImage": "https://opengraph.githubassets.com/26859b1ef19ccdf56c471c82b7b3d01ac332074cf6f09d1aa68dfbc07b25a21c/joseph3559/decentrahub",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "category": "Other"
+    },
+    {
+      "name": "Drivelens",
+      "github": "https://github.com/ofemeteng/ai-car-rec",
+      "description": "AI Car Recommendations",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "GitHub - ofemeteng/ai-car-rec: AI Car Recommendations on Lens Protocol",
+      "ogDescription": "AI Car Recommendations on Lens Protocol. Contribute to ofemeteng/ai-car-rec development by creating an account on GitHub.",
+      "ogImage": "https://opengraph.githubassets.com/752b3b28f43af2a8e1d40242649c24bff9d5f7b82ab030d2850cf6202509a397/ofemeteng/ai-car-rec",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "category": "Other"
+    },
+    {
+      "name": "EverQuiz",
+      "description": "Social quiz and party game platform",
+      "github": "https://github.com/aeither/everquiz",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "GitHub - aeither/everquiz",
+      "ogDescription": "Contribute to aeither/everquiz development by creating an account on GitHub.",
+      "ogImage": "https://opengraph.githubassets.com/c3821d78c5ce109aeff76c876d8dbde0dd9805dcc4acd3170594ec93e4079e3a/aeither/everquiz",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "category": "Other"
+    },
+    {
+      "name": "GhoPay",
+      "url": "https://github.com/harry-sketch/ghopay",
+      "description": "Buy and send GHO on Lens Chain",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "GitHub - harry-sketch/ghopay",
+      "ogDescription": "Contribute to harry-sketch/ghopay development by creating an account on GitHub.",
+      "ogImage": "https://opengraph.githubassets.com/24e33f9a07fc24c06e000eeb2b7f5257d31968f6694d9da56f5825fe3bdb7ded/harry-sketch/ghopay",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "category": "Other"
+    },
+    {
+      "name": "Lens Capital",
+      "description": "Discover & Invest in Lens Creators",
+      "github": "https://github.com/sparkidea25/lens-hackathon",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "GitHub - sparkidea25/lens-hackathon",
+      "ogDescription": "Contribute to sparkidea25/lens-hackathon development by creating an account on GitHub.",
+      "ogImage": "https://opengraph.githubassets.com/7b70bf375907b1e91270772fa4fbdae3b901f2eee58d2f71860fa18e1a79eb4e/sparkidea25/lens-hackathon",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "category": "Other"
+    },
+    {
+      "name": "Lens Messaging App",
+      "description": "Decentralized messaging app",
+      "github": "https://github.com/shoto290/lens-messaging-app",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "GitHub - shoto290/lens-messaging-app",
+      "ogDescription": "Contribute to shoto290/lens-messaging-app development by creating an account on GitHub.",
+      "ogImage": "https://opengraph.githubassets.com/621355976763d97f66de052e99160813a050cbec0882993a7cfcd15bd5ef53b2/shoto290/lens-messaging-app",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "category": "Other"
+    },
+    {
+      "name": "Lens Prophet Lab",
+      "url": "https://github.com/ubinhash/lens-prophet-lab",
+      "description": "User-centric social prediction platform",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "GitHub - ubinhash/lens-prophet-lab",
+      "ogDescription": "Contribute to ubinhash/lens-prophet-lab development by creating an account on GitHub.",
+      "ogImage": "https://opengraph.githubassets.com/4c6b2aabad0b0a3a1af4cec519de69c7f460da76eb4e1cf86d12c1d1618f9658/ubinhash/lens-prophet-lab",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "category": "Other"
+    },
+    {
+      "name": "LensCollective",
+      "description": "Content curation platform",
+      "github": "https://github.com/Dafalahl/LensCollective",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "GitHub - Dafalahl/LensCollective: A Web3 content curation platform built on Lens Protocol where users can collect and organize valuable posts.",
+      "ogDescription": "A Web3 content curation platform built on Lens Protocol where users can collect and organize valuable posts. - Dafalahl/LensCollective",
+      "ogImage": "https://opengraph.githubassets.com/69bc922130481487341914578cd27a4b20075f3584e1cb94af3ab1f9cb2e6854/Dafalahl/LensCollective",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "category": "Other"
+    },
+    {
+      "name": "Lensight",
+      "description": "Decentralized prediction market platform",
+      "github": "https://github.com/consolexyz/lensight",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "GitHub - consolexyz/lensight",
+      "ogDescription": "Contribute to consolexyz/lensight development by creating an account on GitHub.",
+      "ogImage": "https://opengraph.githubassets.com/b5216a1dc7dc5254d1e6f45beae30cf33a042d2cd0a9110950ecd64eb236bd49/consolexyz/lensight",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "category": "Other"
+    },
+    {
+      "name": "LensJobs",
+      "github": "https://github.com/AbdulrazaqAS/lens-jobs",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "GitHub - AbdulrazaqAS/lens-jobs: Lens Protocols Project",
+      "ogDescription": "Lens Protocols Project. Contribute to AbdulrazaqAS/lens-jobs development by creating an account on GitHub.",
+      "ogImage": "https://opengraph.githubassets.com/3f03644c7a3ffe7a7afca84fc6019617ec88533ba1ffe0ab8f18d1f791908156/AbdulrazaqAS/lens-jobs",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "category": "Other"
+    },
+    {
+      "name": "LensMemeBot",
+      "description": "Telegram bot that lets anyone deploy a verified ERC-20 meme token on the Lens Chain",
+      "github": "https://github.com/nullxplorer/lensmemebot",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "GitHub - nullxplorer/lensmemebot",
+      "ogDescription": "Contribute to nullxplorer/lensmemebot development by creating an account on GitHub.",
+      "ogImage": "https://opengraph.githubassets.com/f16b4db39cd0f8e8de7170efb5fb457c913a75a6771adfcbbd807a67f2335595/nullxplorer/lensmemebot",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "category": "Other"
+    },
+    {
+      "name": "LensPad",
+      "description": "ICO launch platform that's powered by reputation and community",
+      "github": "https://github.com/priom/lenspad",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "GitHub - priom/lenspad",
+      "ogDescription": "Contribute to priom/lenspad development by creating an account on GitHub.",
+      "ogImage": "https://opengraph.githubassets.com/c3208496ce9cd9f7fbae177c2e27a00bd8f66570b63fe5835617c2427180a4ba/priom/lenspad",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "category": "Other"
+    },
+    {
+      "name": "LensTask",
+      "description": "Ask questions or post small tasks",
+      "github": "https://github.com/LensTask/lensTask",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "GitHub - LensTask/lensTask",
+      "ogDescription": "Contribute to LensTask/lensTask development by creating an account on GitHub.",
+      "ogImage": "https://opengraph.githubassets.com/42650c3d9fd2fe5c29532472d69d3a50659cf9174c53f6f289af9fd4eb8cb4fd/LensTask/lensTask",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "category": "Other"
+    },
+    {
+      "name": "Lentlify",
+      "description": "Decentralized Ad Campaigns platform",
+      "github": "https://github.com/Nester-xyz/lentlify",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "GitHub - Nester-xyz/lentlify",
+      "ogDescription": "Contribute to Nester-xyz/lentlify development by creating an account on GitHub.",
+      "ogImage": "https://opengraph.githubassets.com/eb993692d9e1b5b64525d5600f892a3460841da77c0340e2f65da45441a99c80/Nester-xyz/lentlify",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "category": "Other"
+    },
+    {
+      "name": "Memed",
+      "description": "Meme token generator",
+      "url": "https://www.memed.fun/",
+      "github": "https://github.com/furkannabisumji/memed",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "Memed.fun",
+      "ogDescription": "Memed.fun",
+      "iconUrl": "https://www.memed.fun/favicon.ico",
+      "category": "Other"
+    },
+    {
+      "name": "MoodFi",
+      "url": "https://mood-fi.vercel.app",
+      "description": "Upload mood-based images, receive AI-powered mood analysis, and earn rewards",
+      "github": "https://github.com/Nocena/MoodFi",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "MoodFi - Feel Good, Earn Better",
+      "iconUrl": "https://mood-fi.vercel.app/assets/moodfi-logo-dEoRQ8Ms.png",
+      "category": "Other"
+    },
+    {
+      "name": "MR.RED",
+      "description": "Retro-themed social media platform built",
+      "url": "https://mrred.vercel.app/",
+      "github": "https://github.com/itsanishjain/mrred",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "iconUrl": "https://mrred.vercel.app/favicon.ico",
+      "category": "Other"
+    },
+    {
+      "name": "optic.social",
+      "description": "Subscription-first SocialFi on Lens",
+      "url": "https://optic-social.vercel.app/",
+      "github": "https://github.com/ardasarico/optic.social",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "iconUrl": "https://optic-social.vercel.app/assets/favicons/favicon-32x32.png",
+      "category": "Other"
+    },
+    {
+      "name": "Pinkcollar",
+      "description": "social network for fashion creators, collaborators, and fans",
+      "github": "https://github.com/bncyrbt/pinkcollar",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "GitHub - bncyrbt/pinkcollar",
+      "ogDescription": "Contribute to bncyrbt/pinkcollar development by creating an account on GitHub.",
+      "ogImage": "https://opengraph.githubassets.com/76977652330932a6614a270ddb4a24585c043514794a0bf4df8ff777893bad8e/bncyrbt/pinkcollar",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "category": "Other"
+    },
+    {
+      "name": "PredictLens",
+      "url": "https://predict-lens.vercel.app/",
+      "description": "Social prediction markets powered by Lens Protocol and quadratic voting",
+      "github": "https://github.com/kamalbuilds/Predictlens",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "PredictLens",
+      "ogDescription": "Prediction markets powered by Lens Protocol",
+      "iconUrl": "https://predict-lens.vercel.app/favicon.svg",
+      "category": "Other"
+    },
+    {
+      "name": "Ragnet",
+      "description": "Your AI DevRel for Open Source Communities",
+      "github": "https://github.com/ragnet-in/infra",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "GitHub - ragnet-in/infra: RAG based Infra for Ragnet",
+      "ogDescription": "RAG based Infra for Ragnet. Contribute to ragnet-in/infra development by creating an account on GitHub.",
+      "ogImage": "https://opengraph.githubassets.com/4dc0cd62f102177ea38a9c8d65429115af51d773556794503d95c3e2b1646ae3/ragnet-in/infra",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "category": "Other"
+    },
+    {
+      "name": "Syndicate",
+      "description": "Onchain lottery system",
+      "url": "https://syndicate.vercel.app/",
+      "github": "https://github.com/thisyearnofear/syndicate-frontend",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "Syndicate Finance",
+      "iconUrl": "https://syndicate.vercel.app/static/touch-icon.png",
+      "category": "Other"
+    },
+    {
+      "name": "TruthCast",
+      "description": "Worlds first Steganography Power Social Media",
+      "github": "https://github.com/sairammr/TruthCast",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "GitHub - sairammr/TruthCast",
+      "ogDescription": "Contribute to sairammr/TruthCast development by creating an account on GitHub.",
+      "ogImage": "https://opengraph.githubassets.com/8c8ba12ff863506c2add53407795247e31ac5587b5be1157611460de1edbadf7/sairammr/TruthCast",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "category": "Other"
+    },
+    {
+      "name": "Web3Lancer",
+      "description": "Global hub for freelancers and creators to connect, collaborate, and earn crypto",
+      "github": "https://github.com/web3lancer/web3lancer",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "GitHub - web3lancer/web3lancer: Web3Lancer is a global hub for freelancers and creators to connect, collaborate, and earn crypto",
+      "ogDescription": "Web3Lancer is a global hub for freelancers and creators to connect, collaborate, and earn crypto - web3lancer/web3lancer",
+      "ogImage": "https://opengraph.githubassets.com/725274727ab05280c9cc6ed076007fa6f6654c944f289a319437bb3fa60c977e/web3lancer/web3lancer",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "category": "Other"
+    },
+    {
+      "name": "Wherewolf",
+      "github": "https://github.com/Trymbakmahant/lens-hack",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "GitHub - Trymbakmahant/lens-hack",
+      "ogDescription": "Contribute to Trymbakmahant/lens-hack development by creating an account on GitHub.",
+      "ogImage": "https://opengraph.githubassets.com/0223fbb64bb8fa3867a13ba65a3940f49b936cd88b353ad5c5c130a0b61eb8f2/Trymbakmahant/lens-hack",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "category": "Other"
+    },
+    {
+      "name": "WriteOn",
+      "description": "Write, Contribute, Earn - AI-Powered Content Campaigns",
+      "github": "https://github.com/lens-write-on/write-on-nextjs",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "GitHub - lens-write-on/write-on-nextjs",
+      "ogDescription": "Contribute to lens-write-on/write-on-nextjs development by creating an account on GitHub.",
+      "ogImage": "https://opengraph.githubassets.com/290fc4c13a90551b64ee1a8ea28b25bcb11e32aa2b96453bce8bb5bb75a391ac/lens-write-on/write-on-nextjs",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "category": "Other"
+    }
+  ],
   "Resources": [
     {
       "name": "Awesome Lens",
       "url": "https://github.com/kuhaku-xyz/awesome-lens",
       "ogTitle": "GitHub - kuhaku-xyz/awesome-lens: a collection of awesome lens projects",
       "ogDescription": "a collection of awesome lens projects. Contribute to kuhaku-xyz/awesome-lens development by creating an account on GitHub.",
-      "ogImage": "https://opengraph.githubassets.com/16a6b4d8112c99b7ef491a421d5436e7ae3c563159cdbb39a2233583a5779675/kuhaku-xyz/awesome-lens",
+      "ogImage": "https://opengraph.githubassets.com/68598a34eb594e950fd39c7a8117aa1e83152f8a85952e597f632bf259956b7d/kuhaku-xyz/awesome-lens",
       "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
       "category": "Resources"
     },
@@ -257,6 +736,19 @@
       "ogTitle": "GitHub - kuhaku-xyz/lens-starter: a nextjs lens starter template",
       "ogDescription": "a nextjs lens starter template. Contribute to kuhaku-xyz/lens-starter development by creating an account on GitHub.",
       "ogImage": "https://opengraph.githubassets.com/22a76d78ff83dc6e1b62930db41184657bf36308ce68d150f13a36ee359ca010/kuhaku-xyz/lens-starter",
+      "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
+      "category": "Resources"
+    },
+    {
+      "name": "Lens Quick Widgets",
+      "description": "A React library to quickly start developing with Lens Protocol",
+      "github": "https://github.com/RathodDeven/lens-quick-widgets",
+      "tags": [
+        "Spring Hackathon"
+      ],
+      "ogTitle": "GitHub - RathodDeven/lens-quick-widgets",
+      "ogDescription": "Contribute to RathodDeven/lens-quick-widgets development by creating an account on GitHub.",
+      "ogImage": "https://opengraph.githubassets.com/59cf632a2842cf719cb9d5e1a29e0b4a33e0d2193bd464c2f5b352463073abfd/RathodDeven/lens-quick-widgets",
       "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
       "category": "Resources"
     },

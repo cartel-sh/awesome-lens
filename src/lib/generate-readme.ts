@@ -2,19 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import projectsDataJson from '../../projects.json';
 import projectsMetaJson from '../../projects-meta.json';
-
-interface ProjectItem {
-  name: string;
-  url: string;
-  description?: string;
-  handle?: string;
-  github?: string;
-  handleUrl?: string;
-  iconUrl?: string;
-  ogTitle?: string;
-  ogDescription?: string;
-  ogImage?: string;
-}
+import { ProjectItem } from './types';
 
 interface Projects {
   [category: string]: ProjectItem[];
@@ -32,7 +20,7 @@ to contribute, please edit the json file and open a PR on [github](https://githu
 for (const [category, items] of Object.entries(projectsMetaData)) {
   markdownContent += `## ${category}\n\n`;
   items.forEach((item: ProjectItem) => {
-    markdownContent += `- [${item.name}](${item.url})`;
+    markdownContent += `- [${item.name}](${item.url || item.github})`;
     if (item.description) {
       markdownContent += ` - ${item.description}`;
     } else if (item.ogDescription) {

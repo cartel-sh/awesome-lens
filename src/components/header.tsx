@@ -2,7 +2,7 @@
 
 import { useTheme } from "next-themes";
 import { Button } from "@/components/ui/button";
-import { Moon, Sun } from "lucide-react";
+import { GitPullRequest, Moon, Sun } from "lucide-react";
 import Image from "next/image";
 
 export default function Header() {
@@ -33,8 +33,10 @@ export default function Header() {
             href="https://github.com/kuhaku-xyz/awesome-lens"
             target="_blank"
             rel="noopener noreferrer"
+            className="flex items-center gap-2"
           >
-            Update List
+            <GitPullRequest className="h-[1.2rem] w-[1.2rem]" />
+            Open PR
           </a>
         </Button>
       </div>

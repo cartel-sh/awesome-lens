@@ -13,16 +13,8 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
+import { ProjectItem } from '@/lib/types';
 
-interface ProjectItem {
-  name: string;
-  url: string;
-  description?: string;
-  handle?: string;
-  github?: string;
-  handleUrl?: string;
-  iconUrl?: string;
-}
 
 interface Projects {
   [category: string]: ProjectItem[];
@@ -77,7 +69,7 @@ export default function Home() {
               <h2 className='font-bold text-2xl my-4'>{category}</h2>
               <div className="flex flex-col gap-2 sm:pl-4">
                 {sortedItems.map((item) => (
-                  <ProjectCard key={item.url} item={item} />
+                  <ProjectCard key={`${category}-${item.name}-${item.url}`} item={item} />
                 ))}
               </div>
             </div>
