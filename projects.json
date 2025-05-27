@@ -8,6 +8,13 @@
       "github": "https://github.com/heyverse/hey"
     },
     {
+      "name": "Pingpad",
+      "url": "https://pingpad.io",
+      "description": "minimalist decentralized social",
+      "handle": "pingpad",
+      "github": "https://github.com/pingpad-io/ping"
+    },
+    {
       "name": "Fountain",
       "url": "https://fountain.ink",
       "description": "decentralized blogging platform",
