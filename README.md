@@ -65,6 +65,7 @@ This readme is generated from [projects.json](https://github.com/kuhaku-xyz/awes
 - [Web3Lancer](https://github.com/web3lancer/web3lancer) - Global hub for freelancers and creators to connect, collaborate, and earn crypto ([github](https://github.com/web3lancer/web3lancer))
 - [Wherewolf](https://github.com/Trymbakmahant/lens-hack) - Contribute to Trymbakmahant/lens-hack development by creating an account on GitHub. ([github](https://github.com/Trymbakmahant/lens-hack))
 - [WriteOn](https://github.com/lens-write-on/write-on-nextjs) - Write, Contribute, Earn - AI-Powered Content Campaigns ([github](https://github.com/lens-write-on/write-on-nextjs))
+- [LensShare](https://lens.orbiter.website/?follow=ngmisl) - Follow and share Lens profiles across platforms
 
 ## Resources
 
