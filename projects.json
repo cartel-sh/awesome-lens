@@ -39,6 +39,11 @@
       "description": "E2E encrypted instant messaging app"
     },
     {
+      "name": "LensShare",
+      "url": "https://lens.orbiter.website/",
+      "description": "Follow and share Lens profiles across apps"
+    },
+    {
       "name": "Bad Art",
       "url": "https://art.lens.box",
       "description": "A serious place for unserious art",
@@ -488,9 +493,19 @@
       "handleUrl": "https://hey.xyz/u/vicnaum"
     },
     {
-      "name": "GHO stable gas",
-      "url": "https://dune.com/jonaso/gho-lens",
-      "description": "GHO on LC dashboard"
+      "name": "Lens Chain",
+      "url": "https://dune.com/lens/lens-chain",
+      "description": "general dashboard"
+    },
+    {
+      "name": "Fountain Dashboard",
+      "url": "https://dune.com/kualta/fountain",
+      "description": "Fountain stats dashboard"
+    },
+    {
+      "name": "Hey Dashboard",
+      "url": "https://dune.com/heyverse/hey",
+      "description": "Hey stats dashboard"
     },
     {
       "name": "Disco",

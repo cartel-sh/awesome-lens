@@ -22,6 +22,7 @@ This readme is generated from [projects.json](https://github.com/kuhaku-xyz/awes
 - [Lens Reputation](https://lensreputation.xyz) - decentralized reputation system ([lensreputation](https://hey.xyz/u/lensreputation))
 - [Lens Spaces](https://lens-spaces.vercel.app/) - Stream. Share. Own the Moment. ([github](https://github.com/prakhar728/lens-spaces))
 - [Lenscan](https://lenscan.io) - Community driven Lens chain explorer
+- [LensShare](https://lens.orbiter.website/) - Follow and share Lens profiles across apps
 - [Lenx](https://lenx.dev/) - Link your X to your Lens ([github](https://github.com/slvDev/lenx))
 - [Lora](https://onlora.ai) - GenAi platform for vibe artists ([github](https://github.com/onlora/onlora))
 - [MoodFi](https://mood-fi.vercel.app) - Upload mood-based images, receive AI-powered mood analysis, and earn rewards ([github](https://github.com/Nocena/MoodFi))
@@ -65,7 +66,6 @@ This readme is generated from [projects.json](https://github.com/kuhaku-xyz/awes
 - [Web3Lancer](https://github.com/web3lancer/web3lancer) - Global hub for freelancers and creators to connect, collaborate, and earn crypto ([github](https://github.com/web3lancer/web3lancer))
 - [Wherewolf](https://github.com/Trymbakmahant/lens-hack) - Contribute to Trymbakmahant/lens-hack development by creating an account on GitHub. ([github](https://github.com/Trymbakmahant/lens-hack))
 - [WriteOn](https://github.com/lens-write-on/write-on-nextjs) - Write, Contribute, Earn - AI-Powered Content Campaigns ([github](https://github.com/lens-write-on/write-on-nextjs))
-- [LensShare](https://lens.orbiter.website/?follow=ngmisl) - Follow and share Lens profiles across platforms
 
 ## Resources
 
@@ -83,9 +83,11 @@ This readme is generated from [projects.json](https://github.com/kuhaku-xyz/awes
 ## Dashboards
 
 - [Disco](https://disco.l2beat.com/ui/p/lens) - Lens Chain onchain connections dashboard
-- [GHO stable gas](https://dune.com/jonaso/gho-lens) - GHO on LC dashboard
+- [Fountain Dashboard](https://dune.com/kualta/fountain) - Fountain stats dashboard
+- [Hey Dashboard](https://dune.com/heyverse/hey) - Hey stats dashboard
 - [Lens Chain](https://dune.com/lens/lens-chain) - general dashboard
 - [Lens Chain](https://dune.com/vicnaum/lens-chain) - dashboard by Vicnaum
+- [Lens Chain](https://dune.com/lens/lens-chain) - general dashboard
 
 ## DeFi
 

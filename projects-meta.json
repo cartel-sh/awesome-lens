@@ -181,6 +181,16 @@
       "category": "Apps"
     },
     {
+      "name": "LensShare",
+      "url": "https://lens.orbiter.website/",
+      "description": "Follow and share Lens profiles across apps",
+      "ogTitle": "LensShare - Follow and share Lens profiles",
+      "ogDescription": "A pixel-styled tool to follow and share Lens protocol profiles across multiple platforms",
+      "ogImage": "/og-image.svg",
+      "iconUrl": "https://lens.orbiter.website/favicon.svg",
+      "category": "Apps"
+    },
+    {
       "name": "Lenx",
       "github": "https://github.com/slvDev/lenx",
       "url": "https://lenx.dev/",
@@ -686,7 +696,7 @@
       "url": "https://github.com/kuhaku-xyz/awesome-lens",
       "ogTitle": "GitHub - kuhaku-xyz/awesome-lens: a collection of awesome lens v3 projects",
       "ogDescription": "a collection of awesome lens v3 projects. Contribute to kuhaku-xyz/awesome-lens development by creating an account on GitHub.",
-      "ogImage": "https://opengraph.githubassets.com/b4763a7df088b1bb7969a812fd75b2a1fbdd45ffecbbfd6b1c496122e21ccdb6/kuhaku-xyz/awesome-lens",
+      "ogImage": "https://opengraph.githubassets.com/0865fcc4b8c4c8512429a7f303bacc66c657965568355d4c62ae0c3007d94fa9/kuhaku-xyz/awesome-lens",
       "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
       "category": "Resources"
     },
@@ -762,7 +772,7 @@
       ],
       "ogTitle": "GitHub - RathodDeven/lens-quick-widgets",
       "ogDescription": "Contribute to RathodDeven/lens-quick-widgets development by creating an account on GitHub.",
-      "ogImage": "https://opengraph.githubassets.com/e56c758161fd32356508133d6dc41c414c2efd2cc09260e3ba247e97b36ec91e/RathodDeven/lens-quick-widgets",
+      "ogImage": "https://opengraph.githubassets.com/efcb39dee493d1b563c206fabd14c45c35aca97033bcfb562bef30178be85297/RathodDeven/lens-quick-widgets",
       "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
       "category": "Resources"
     },
@@ -772,7 +782,7 @@
       "description": "The official SDK for the Lens Protocol",
       "ogTitle": "GitHub - lens-protocol/lens-sdk: The official SDK to interact with the Lens Protocol",
       "ogDescription": "The official SDK to interact with the Lens Protocol - lens-protocol/lens-sdk",
-      "ogImage": "https://opengraph.githubassets.com/df4a7573210591e6d301455a7fe38618e537ce9fcade9324d57d49c9355ea4e6/lens-protocol/lens-sdk",
+      "ogImage": "https://opengraph.githubassets.com/1fc040ed0561d9f3e6e6f435a2fed02a49aad4f406f1244ae2bdc3abdaff3ca5/lens-protocol/lens-sdk",
       "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
       "category": "Resources"
     }
@@ -789,12 +799,22 @@
       "category": "Dashboards"
     },
     {
-      "name": "GHO stable gas",
-      "url": "https://dune.com/jonaso/gho-lens",
-      "description": "GHO on LC dashboard",
-      "ogTitle": "GHO as a stable gas on Lens Chain (LC)",
+      "name": "Fountain Dashboard",
+      "url": "https://dune.com/kualta/fountain",
+      "description": "Fountain stats dashboard",
+      "ogTitle": "Fountain",
       "ogDescription": "Dune is the all-in-one crypto data platform — query with SQL, stream data via APIs & DataShare, and publish interactive dashboards across 100+ blockchains.",
-      "ogImage": "https://core-api.dune.com/public/screenshot?url=https://dune.com/jonaso/gho-lens",
+      "ogImage": "https://core-api.dune.com/public/screenshot?url=https://dune.com/kualta/fountain",
+      "iconUrl": "https://dune.com/assets/glyph-1024w.png",
+      "category": "Dashboards"
+    },
+    {
+      "name": "Hey Dashboard",
+      "url": "https://dune.com/heyverse/hey",
+      "description": "Hey stats dashboard",
+      "ogTitle": "Hey",
+      "ogDescription": "Dune is the all-in-one crypto data platform — query with SQL, stream data via APIs & DataShare, and publish interactive dashboards across 100+ blockchains.",
+      "ogImage": "https://core-api.dune.com/public/screenshot?url=https://dune.com/heyverse/hey",
       "iconUrl": "https://dune.com/assets/glyph-1024w.png",
       "category": "Dashboards"
     },
@@ -816,6 +836,16 @@
       "ogTitle": "Lens Chain",
       "ogDescription": "Dune is the all-in-one crypto data platform — query with SQL, stream data via APIs & DataShare, and publish interactive dashboards across 100+ blockchains.",
       "ogImage": "https://core-api.dune.com/public/screenshot?url=https://dune.com/vicnaum/lens-chain",
+      "iconUrl": "https://dune.com/assets/glyph-1024w.png",
+      "category": "Dashboards"
+    },
+    {
+      "name": "Lens Chain",
+      "url": "https://dune.com/lens/lens-chain",
+      "description": "general dashboard",
+      "ogTitle": "Lens Chain",
+      "ogDescription": "Dune is the all-in-one crypto data platform — query with SQL, stream data via APIs & DataShare, and publish interactive dashboards across 100+ blockchains.",
+      "ogImage": "https://core-api.dune.com/public/screenshot?url=https://dune.com/lens/lens-chain",
       "iconUrl": "https://dune.com/assets/glyph-1024w.png",
       "category": "Dashboards"
     }
