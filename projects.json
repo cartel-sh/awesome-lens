@@ -169,6 +169,12 @@
       "tags": [
         "Spring Hackathon"
       ]
+    },
+    {
+      "name": "Focalize",
+      "url": "https://get.focalize.app/",
+      "description": "A browser extension with desktop notifications and powerful post composer.",
+      "github": "https://github.com/FocalizeApp/focalize-extension"
     }
   ],
   "Other": [

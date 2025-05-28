@@ -12,6 +12,7 @@ This readme is generated from [projects.json](https://github.com/kuhaku-xyz/awes
 - [Bonsai](https://onbons.ai) - Create & monetize agentic content on Lens ([bonsai](https://hey.xyz/u/bonsai))
 - [Fameish](https://testnet.fameish.day/) - Become the most-followed account for a day ([github](https://github.com/iPaulPro/fameish))
 - [Firefly](https://firefly.social) - Firefly is a Web3 social app by Mask Network. Explore timelines from X, Farcaster, Lens & Bluesky, and track trends in DeFi, MEME, NFTs, and more. ([fireflyapp](https://hey.xyz/u/fireflyapp))
+- [Focalize](https://get.focalize.app/) - A browser extension with desktop notifications and powerful post composer. ([github](https://github.com/FocalizeApp/focalize-extension))
 - [Fountain](https://fountain.ink) - decentralized blogging platform ([fountain](https://hey.xyz/u/fountain)) ([github](https://github.com/fountain-ink/app))
 - [Hey](https://hey.xyz) - decentralized and permissionless social media app ([hey](https://hey.xyz/u/hey)) ([github](https://github.com/heyverse/hey))
 - [Intract](https://www.intract.io/) - Intract's Protocol empowers users to harness on-chain and off-chain data and reputation to unlock better rewards and incentives, create tailored AI agents, and safeguard privacy and data ownership. ([intract](https://hey.xyz/u/intract))
@@ -86,8 +87,8 @@ This readme is generated from [projects.json](https://github.com/kuhaku-xyz/awes
 - [Fountain Dashboard](https://dune.com/kualta/fountain) - Fountain stats dashboard
 - [Hey Dashboard](https://dune.com/heyverse/hey) - Hey stats dashboard
 - [Lens Chain](https://dune.com/lens/lens-chain) - general dashboard
-- [Lens Chain](https://dune.com/vicnaum/lens-chain) - dashboard by Vicnaum
 - [Lens Chain](https://dune.com/lens/lens-chain) - general dashboard
+- [Lens Chain](https://dune.com/vicnaum/lens-chain) - dashboard by Vicnaum
 
 ## DeFi
 

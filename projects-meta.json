@@ -78,6 +78,17 @@
       "category": "Apps"
     },
     {
+      "name": "Focalize",
+      "url": "https://get.focalize.app/",
+      "description": "A browser extension with desktop notifications and powerful post composer.",
+      "github": "https://github.com/FocalizeApp/focalize-extension",
+      "ogTitle": "Focalize - Extension for Lens - Chrome Web Store",
+      "ogDescription": "Social app built on Lens Chain and Lens Protocol",
+      "ogImage": "https://lh3.googleusercontent.com/pF7fQMLHsvGmPPBHLmejlH1ORCp7WnDcDDfCk4JMZnL_ZkYbzENmxSf12ZqDOQxAErZjUMMrru-b58dPntesJhSq=s128-rj-sc0x00ffffff",
+      "iconUrl": "https://ssl.gstatic.com/chrome/webstore/images/icon_48px.png",
+      "category": "Apps"
+    },
+    {
       "name": "Fountain",
       "url": "https://fountain.ink",
       "description": "decentralized blogging platform",
@@ -316,7 +327,7 @@
       ],
       "ogTitle": "GitHub - BeTheNation-Lens/fe",
       "ogDescription": "Contribute to BeTheNation-Lens/fe development by creating an account on GitHub.",
-      "ogImage": "https://opengraph.githubassets.com/0b93cb145a0fe746ae9edd7d2fadbd29068a3861306d8bced11872f9932b65c3/BeTheNation-Lens/fe",
+      "ogImage": "https://opengraph.githubassets.com/fd4ada4082e01dcf5f80d0c1b5e077f80c1a9dcd28c6fdcff4b8023919b51225/BeTheNation-Lens/fe",
       "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
       "category": "Other"
     },
@@ -696,7 +707,7 @@
       "url": "https://github.com/kuhaku-xyz/awesome-lens",
       "ogTitle": "GitHub - kuhaku-xyz/awesome-lens: a collection of awesome lens v3 projects",
       "ogDescription": "a collection of awesome lens v3 projects. Contribute to kuhaku-xyz/awesome-lens development by creating an account on GitHub.",
-      "ogImage": "https://opengraph.githubassets.com/0865fcc4b8c4c8512429a7f303bacc66c657965568355d4c62ae0c3007d94fa9/kuhaku-xyz/awesome-lens",
+      "ogImage": "https://opengraph.githubassets.com/2d2bb52c86d77558776d4b055ae0ad8606de621a19a194b7a1b4063ab65405c5/kuhaku-xyz/awesome-lens",
       "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
       "category": "Resources"
     },
@@ -830,22 +841,22 @@
     },
     {
       "name": "Lens Chain",
+      "url": "https://dune.com/lens/lens-chain",
+      "description": "general dashboard",
+      "ogTitle": "Lens Chain",
+      "ogDescription": "Dune is the all-in-one crypto data platform — query with SQL, stream data via APIs & DataShare, and publish interactive dashboards across 100+ blockchains.",
+      "ogImage": "https://core-api.dune.com/public/screenshot?url=https://dune.com/lens/lens-chain",
+      "iconUrl": "https://dune.com/assets/glyph-1024w.png",
+      "category": "Dashboards"
+    },
+    {
+      "name": "Lens Chain",
       "url": "https://dune.com/vicnaum/lens-chain",
       "description": "dashboard by Vicnaum",
       "handleUrl": "https://hey.xyz/u/vicnaum",
       "ogTitle": "Lens Chain",
       "ogDescription": "Dune is the all-in-one crypto data platform — query with SQL, stream data via APIs & DataShare, and publish interactive dashboards across 100+ blockchains.",
       "ogImage": "https://core-api.dune.com/public/screenshot?url=https://dune.com/vicnaum/lens-chain",
-      "iconUrl": "https://dune.com/assets/glyph-1024w.png",
-      "category": "Dashboards"
-    },
-    {
-      "name": "Lens Chain",
-      "url": "https://dune.com/lens/lens-chain",
-      "description": "general dashboard",
-      "ogTitle": "Lens Chain",
-      "ogDescription": "Dune is the all-in-one crypto data platform — query with SQL, stream data via APIs & DataShare, and publish interactive dashboards across 100+ blockchains.",
-      "ogImage": "https://core-api.dune.com/public/screenshot?url=https://dune.com/lens/lens-chain",
       "iconUrl": "https://dune.com/assets/glyph-1024w.png",
       "category": "Dashboards"
     }
