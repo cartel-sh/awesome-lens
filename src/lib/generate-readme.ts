@@ -19,7 +19,7 @@ const readmePath = path.join(process.cwd(), 'README.md');
 let markdownContent = '# Awesome Lens \n\n';
 markdownContent += 'Hosted version is available at [awesome.lens.box](https://awesome.lens.box).\n';
 markdownContent += 'This readme is generated from [projects.json](https://github.com/kuhaku-xyz/awesome-lens/blob/main/projects.json), \
-to contribute, please edit the json file and open a PR on [github](https://github.com/kuhaku-xyz/awesome-lens)\n\n';
+to contribute, please [open a pr on github](https://github.com/kuhaku-xyz/awesome-lens/edit/main/projects.json)\n\n';
 
 for (const [category, items] of Object.entries(projectsMetaData)) {
   markdownContent += `## ${category} (${items.length})\n\n`;

@@ -1,7 +1,7 @@
 # Awesome Lens 
 
 Hosted version is available at [awesome.lens.box](https://awesome.lens.box).
-This readme is generated from [projects.json](https://github.com/kuhaku-xyz/awesome-lens/blob/main/projects.json), to contribute, please edit the json file and open a PR on [github](https://github.com/kuhaku-xyz/awesome-lens)
+This readme is generated from [projects.json](https://github.com/kuhaku-xyz/awesome-lens/blob/main/projects.json), to contribute, please [open a pr on github](https://github.com/kuhaku-xyz/awesome-lens/edit/main/projects.json)
 
 ## Apps (28)
 
