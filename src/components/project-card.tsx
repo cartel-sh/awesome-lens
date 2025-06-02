@@ -45,18 +45,18 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ item }) => {
       setIsExpanded(!isExpanded)
     }}>
       <div className="flex items-center w-full">
-        {item.iconUrl ? (
-          <img
-            src={item.iconUrl}
-            className="w-4 h-4 mr-3 mt-1 rounded-sm object-cover flex-shrink-0"
-            onError={(e) => {
-              e.currentTarget.style.display = 'none';
-              console.warn(`Failed to load icon: ${item.iconUrl} for ${item.name}`);
-            }}
-          />
-        ) : (
-          <div className="w-4 h-4 mr-3 mt-1 rounded-full flex-shrink-0"></div>
-        )}
+        <div className={`w-4 h-4 mr-3 mt-1 flex-shrink-0 flex items-center rounded-full justify-center`}>
+          {item.iconUrl ? (
+            <img
+              src={item.iconUrl}
+              className="w-4 h-4 z-10 rounded-sm object-cover"
+              onError={(e) => {
+                e.currentTarget.style.display = 'none';
+                console.warn(`Failed to load icon: ${item.iconUrl} for ${item.name}`);
+              }}
+            />
+          ) : null}
+        </div>
         <div className="flex-grow flex gap-2 items-baseline">
           <span className="flex-shrink min-w-0 max-w-[600px] overflow-hidden whitespace-nowrap text-ellipsis">
             <a href={item.url || item.github} target="_blank" rel="noopener noreferrer" className="font-semibold decoration-gray-400 no-underline underline-offset-4 hover:underline" onClick={(e) => e.stopPropagation()}>{item.name}</a>

@@ -28,6 +28,11 @@
       "description": "platform for your shop, events and community."
     },
     {
+      "name": "Vellu",
+      "url": "https://vellu.xyz",
+      "handle": "vellu"
+    },
+    {
       "name": "Bloomers",
       "url": "https://bloomers.tv/",
       "description": "Open-source live-streaming platform.",
@@ -488,18 +493,18 @@
   ],
   "Dashboards": [
     {
-      "name": "Lens Chain",
+      "name": "Lens Chain General",
       "url": "https://dune.com/lens/lens-chain",
       "description": "general dashboard"
     },
     {
-      "name": "Lens Chain",
+      "name": "Lens Chain by Vicnaum",
       "url": "https://dune.com/vicnaum/lens-chain",
       "description": "dashboard by Vicnaum",
       "handleUrl": "https://hey.xyz/u/vicnaum"
     },
     {
-      "name": "Lens Chain",
+      "name": "Lens Chain ",
       "url": "https://dune.com/lens/lens-chain",
       "description": "general dashboard"
     },

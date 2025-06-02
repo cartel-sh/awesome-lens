@@ -9,7 +9,11 @@ interface Projects {
 }
 
 const projectsData: Projects = projectsDataJson as Projects;
-const projectsMetaData: Projects = projectsMetaJson as Projects;
+const projectsMetaDataRaw = projectsMetaJson as any;
+const projectsMetaData: Projects = Object.fromEntries(
+  Object.entries(projectsMetaDataRaw).filter(([key]) => key !== '_metadata')
+) as Projects;
+const metadata = projectsMetaDataRaw._metadata;
 const readmePath = path.join(process.cwd(), 'README.md');
 
 let markdownContent = '# Awesome Lens \n\n';
@@ -18,7 +22,7 @@ markdownContent += 'This readme is generated from [projects.json](https://github
 to contribute, please edit the json file and open a PR on [github](https://github.com/kuhaku-xyz/awesome-lens)\n\n';
 
 for (const [category, items] of Object.entries(projectsMetaData)) {
-  markdownContent += `## ${category}\n\n`;
+  markdownContent += `## ${category} (${items.length})\n\n`;
   items.forEach((item: ProjectItem) => {
     markdownContent += `- [${item.name}](${item.url || item.github})`;
     if (item.description) {
@@ -37,6 +41,19 @@ for (const [category, items] of Object.entries(projectsMetaData)) {
     markdownContent += '\n';
   });
   markdownContent += '\n';
+}
+
+// Add last updated information if available
+if (metadata?.lastUpdated) {
+  const lastUpdatedDate = new Date(metadata.lastUpdated);
+  markdownContent += `---\n\n*Last updated: ${lastUpdatedDate.toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    timeZoneName: 'short'
+  })}*\n`;
 }
 
 fs.writeFileSync(readmePath, markdownContent.trim() + '\n');

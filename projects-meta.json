@@ -79,13 +79,13 @@
     },
     {
       "name": "Focalize",
-      "url": "https://get.focalize.app/",
+      "url": "https://focalize.app/",
       "description": "A browser extension with desktop notifications and powerful post composer.",
       "github": "https://github.com/FocalizeApp/focalize-extension",
-      "ogTitle": "Focalize - Extension for Lens - Chrome Web Store",
-      "ogDescription": "Social app built on Lens Chain and Lens Protocol",
-      "ogImage": "https://lh3.googleusercontent.com/pF7fQMLHsvGmPPBHLmejlH1ORCp7WnDcDDfCk4JMZnL_ZkYbzENmxSf12ZqDOQxAErZjUMMrru-b58dPntesJhSq=s128-rj-sc0x00ffffff",
-      "iconUrl": "https://ssl.gstatic.com/chrome/webstore/images/icon_48px.png",
+      "ogTitle": "Focalize - Extension for Lens",
+      "ogDescription": "Focalize is a full social app built on Lens, running in a browser extension.",
+      "ogImage": "https://focalize.app/images/focalize.png",
+      "iconUrl": "https://focalize.app/images/focalize.svg",
       "category": "Apps"
     },
     {
@@ -187,7 +187,7 @@
       "url": "https://lenscan.io",
       "description": "Community driven Lens chain explorer",
       "ogTitle": "Lenscan",
-      "ogDescription": "Lens Protocol Blockchain and Social Explorer",
+      "ogDescription": "Lens Chain Block and Social Explorer",
       "iconUrl": "https://lenscan.io/favicon.svg",
       "category": "Apps"
     },
@@ -223,7 +223,7 @@
         "Spring Hackathon"
       ],
       "ogTitle": "onlora.ai",
-      "ogDescription": "AI Generated Vibes",
+      "ogDescription": "GenAI platform for vibe artists",
       "iconUrl": "https://onlora.ai/favicon.ico",
       "category": "Apps"
     },
@@ -258,6 +258,7 @@
       "github": "https://github.com/pingpad-io/ping",
       "ogTitle": "Pingpad",
       "ogDescription": "reach your people on pingpad",
+      "ogImage": "http://localhost:3000/logo.png",
       "iconUrl": "https://pingpad.io/favicon.ico",
       "category": "Apps"
     },
@@ -279,6 +280,14 @@
       "ogDescription": "Soclly is a social aggregator platform.",
       "ogImage": "https://assets.soclly.com/marketing/og.png",
       "iconUrl": "https://assets.soclly.com/images/icons/apple-touch-icon.png",
+      "category": "Apps"
+    },
+    {
+      "name": "Vellu",
+      "url": "https://vellu.xyz",
+      "handle": "vellu",
+      "ogTitle": "vellu",
+      "iconUrl": "https://vellu.xyz/favicon.svg",
       "category": "Apps"
     },
     {
@@ -467,9 +476,9 @@
       "tags": [
         "Spring Hackathon"
       ],
-      "ogTitle": "GitHub - ubinhash/lens-prophet-lab",
-      "ogDescription": "Contribute to ubinhash/lens-prophet-lab development by creating an account on GitHub.",
-      "ogImage": "https://opengraph.githubassets.com/4c6b2aabad0b0a3a1af4cec519de69c7f460da76eb4e1cf86d12c1d1618f9658/ubinhash/lens-prophet-lab",
+      "ogTitle": "GitHub - ubinhash/lens-prophet-lab: Lens Spring Hackathon",
+      "ogDescription": "Lens Spring Hackathon . Contribute to ubinhash/lens-prophet-lab development by creating an account on GitHub.",
+      "ogImage": "https://opengraph.githubassets.com/d1912faec2e4182cbd9d1182f37fe20a4b05a8b67cfb48ce6480e90cfa9ab075/ubinhash/lens-prophet-lab",
       "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
       "category": "Other"
     },
@@ -707,7 +716,7 @@
       "url": "https://github.com/kuhaku-xyz/awesome-lens",
       "ogTitle": "GitHub - kuhaku-xyz/awesome-lens: a collection of awesome lens v3 projects",
       "ogDescription": "a collection of awesome lens v3 projects. Contribute to kuhaku-xyz/awesome-lens development by creating an account on GitHub.",
-      "ogImage": "https://opengraph.githubassets.com/2d2bb52c86d77558776d4b055ae0ad8606de621a19a194b7a1b4063ab65405c5/kuhaku-xyz/awesome-lens",
+      "ogImage": "https://opengraph.githubassets.com/1e56e8342204b033b43b250f2929395e59c712e62c89ffc07176552ef46722d3/kuhaku-xyz/awesome-lens",
       "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
       "category": "Resources"
     },
@@ -793,7 +802,7 @@
       "description": "The official SDK for the Lens Protocol",
       "ogTitle": "GitHub - lens-protocol/lens-sdk: The official SDK to interact with the Lens Protocol",
       "ogDescription": "The official SDK to interact with the Lens Protocol - lens-protocol/lens-sdk",
-      "ogImage": "https://opengraph.githubassets.com/1fc040ed0561d9f3e6e6f435a2fed02a49aad4f406f1244ae2bdc3abdaff3ca5/lens-protocol/lens-sdk",
+      "ogImage": "https://opengraph.githubassets.com/78f2d1af9810eafdfed351baffd27bde91d7ac40083b59a60f39243016300e7e/lens-protocol/lens-sdk",
       "iconUrl": "https://github.githubassets.com/favicons/favicon.svg",
       "category": "Resources"
     }
@@ -830,7 +839,7 @@
       "category": "Dashboards"
     },
     {
-      "name": "Lens Chain",
+      "name": "Lens Chain ",
       "url": "https://dune.com/lens/lens-chain",
       "description": "general dashboard",
       "ogTitle": "Lens Chain",
@@ -840,23 +849,23 @@
       "category": "Dashboards"
     },
     {
-      "name": "Lens Chain",
-      "url": "https://dune.com/lens/lens-chain",
-      "description": "general dashboard",
-      "ogTitle": "Lens Chain",
-      "ogDescription": "Dune is the all-in-one crypto data platform — query with SQL, stream data via APIs & DataShare, and publish interactive dashboards across 100+ blockchains.",
-      "ogImage": "https://core-api.dune.com/public/screenshot?url=https://dune.com/lens/lens-chain",
-      "iconUrl": "https://dune.com/assets/glyph-1024w.png",
-      "category": "Dashboards"
-    },
-    {
-      "name": "Lens Chain",
+      "name": "Lens Chain by Vicnaum",
       "url": "https://dune.com/vicnaum/lens-chain",
       "description": "dashboard by Vicnaum",
       "handleUrl": "https://hey.xyz/u/vicnaum",
       "ogTitle": "Lens Chain",
       "ogDescription": "Dune is the all-in-one crypto data platform — query with SQL, stream data via APIs & DataShare, and publish interactive dashboards across 100+ blockchains.",
       "ogImage": "https://core-api.dune.com/public/screenshot?url=https://dune.com/vicnaum/lens-chain",
+      "iconUrl": "https://dune.com/assets/glyph-1024w.png",
+      "category": "Dashboards"
+    },
+    {
+      "name": "Lens Chain General",
+      "url": "https://dune.com/lens/lens-chain",
+      "description": "general dashboard",
+      "ogTitle": "Lens Chain",
+      "ogDescription": "Dune is the all-in-one crypto data platform — query with SQL, stream data via APIs & DataShare, and publish interactive dashboards across 100+ blockchains.",
+      "ogImage": "https://core-api.dune.com/public/screenshot?url=https://dune.com/lens/lens-chain",
       "iconUrl": "https://dune.com/assets/glyph-1024w.png",
       "category": "Dashboards"
     }
@@ -962,8 +971,8 @@
       "description": "L2Beat is a platform for tracking and analyzing Layer 2 networks. It provides real-time data on transaction volumes, user activity, and other metrics, helping users stay updated on the latest developments in the Layer 2 space.",
       "ogTitle": "Lens - L2BEAT",
       "ogDescription": "Lens Network is the main social networking hub for the user base of Lens Protocol, built on a Validium using ZKsync's ZK Stack technology.",
-      "ogImage": "https://l2beat.com/scaling/projects/lens/opengraph-image-6bdw2d/lens?8f2929084dd99492",
-      "iconUrl": "https://l2beat.com/favicon.ico",
+      "ogImage": "http://localhost:3000/static/meta-images/scaling/projects/lens/opengraph-image.cae6f324.png",
+      "iconUrl": "https://l2beat.com/static/icon.c58a8403.svg",
       "category": "Infra"
     },
     {
@@ -979,7 +988,7 @@
       "name": "Lenscan",
       "url": "https://lenscan.io",
       "ogTitle": "Lenscan",
-      "ogDescription": "Lens Protocol Blockchain and Social Explorer",
+      "ogDescription": "Lens Chain Block and Social Explorer",
       "iconUrl": "https://lenscan.io/favicon.svg",
       "category": "Infra"
     },
@@ -1022,7 +1031,7 @@
       "url": "https://app.uniswap.org",
       "description": "A DEX for Lens Chain",
       "ogTitle": "Uniswap Interface",
-      "ogDescription": "Swap or provide liquidity on the Uniswap Protocol",
+      "ogDescription": "Swap crypto on Ethereum, Base, Arbitrum, Polygon, Unichain and more. The DeFi platform trusted by millions.",
       "ogImage": "https://app.uniswap.org/images/1200x630_Rich_Link_Preview_Image.png",
       "iconUrl": "https://app.uniswap.org/favicon.png",
       "category": "Infra"
@@ -1038,5 +1047,9 @@
       "iconUrl": "https://zksync.io/favicon.ico",
       "category": "Infra"
     }
-  ]
+  ],
+  "_metadata": {
+    "lastUpdated": "2025-06-02T05:48:32.254Z",
+    "generatedAt": 1748843312254
+  }
 }

@@ -160,7 +160,16 @@ async function generateProjectMeta() {
       .sort((a, b) => a.name.localeCompare(b.name));
   });
 
-  fs.writeFileSync(outputFilePath, JSON.stringify(projectsWithMeta, null, 2));
+  // Add metadata with timestamp
+  const output = {
+    ...projectsWithMeta,
+    _metadata: {
+      lastUpdated: new Date().toISOString(),
+      generatedAt: Date.now()
+    }
+  };
+
+  fs.writeFileSync(outputFilePath, JSON.stringify(output, null, 2));
   console.log(`Successfully generated ${outputFilePath}`);
 }
 

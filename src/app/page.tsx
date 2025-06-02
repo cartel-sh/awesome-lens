@@ -4,7 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import { useState, useEffect } from 'react';
 import Header from '../components/header';
-import projectsMetaData from '../../projects-meta.json';
+import projectsMetaDataRaw from '../../projects-meta.json';
 import ProjectCard from '../components/project-card';
 import {
   Select,
@@ -20,7 +20,14 @@ interface Projects {
   [category: string]: ProjectItem[];
 }
 
-const projects: Projects = projectsMetaData;
+// Type for the raw data with metadata
+const projectsDataRaw = projectsMetaDataRaw as any;
+const metadata = projectsDataRaw._metadata;
+
+// Extract projects excluding metadata
+const projects: Projects = Object.fromEntries(
+  Object.entries(projectsDataRaw).filter(([key]) => key !== '_metadata')
+) as Projects;
 
 type SortOrder = "alphabetical" | "openSourceFirst";
 
@@ -40,6 +47,21 @@ const sortProjects = (items: ProjectItem[], order: SortOrder): ProjectItem[] => 
 export default function Home() {
   const [sortOrder, setSortOrder] = useState<SortOrder>("openSourceFirst");
   const [clientProjects, setClientProjects] = useState<Projects>(projects);
+  const [expandedCategories, setExpandedCategories] = useState<Record<string, boolean>>(() => {
+    // Initialize all categories as expanded
+    const initialState: Record<string, boolean> = {};
+    Object.keys(projects).forEach(category => {
+      initialState[category] = true;
+    });
+    return initialState;
+  });
+
+  const toggleCategory = (category: string) => {
+    setExpandedCategories(prev => ({
+      ...prev,
+      [category]: !prev[category]
+    }));
+  };
 
   return (
     <div className="flex flex-col items-center min-h-screen font-[family-name:var(--font-geist-sans)]">
@@ -64,14 +86,31 @@ export default function Home() {
             return null;
           }
 
+          const isExpanded = expandedCategories[category];
+
           return (
             <div key={category}>
-              <h2 className='font-bold text-2xl my-4'>{category}</h2>
-              <div className="flex flex-col gap-2 sm:pl-4">
-                {sortedItems.map((item) => (
-                  <ProjectCard key={`${category}-${item.name}-${item.url}`} item={item} />
-                ))}
+              <div
+                className="flex items-center justify-between cursor-pointer hover:bg-muted/30 rounded-md p-2 -ml-2 transition-colors duration-150"
+                onClick={() => toggleCategory(category)}
+              >
+                <h2 className='font-bold text-2xl my-4'>{category} ({sortedItems.length})</h2>
+                <svg
+                  className={`w-5 h-5 text-muted-foreground transition-transform duration-200 ${isExpanded ? 'rotate-90' : ''}`}
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
               </div>
+              {isExpanded && (
+                <div className="flex flex-col gap-2 sm:pl-4">
+                  {sortedItems.map((item) => (
+                    <ProjectCard key={`${category}-${item.name}-${item.url}`} item={item} />
+                  ))}
+                </div>
+              )}
             </div>
           );
         })}
@@ -80,6 +119,17 @@ export default function Home() {
         <p>
           Built with love by the Lens community. <a href="https://github.com/kuhaku-xyz/awesome-lens" target="_blank" rel="noopener noreferrer" className="underline">Contribute.</a>
         </p>
+        {metadata?.lastUpdated && (
+          <p className="mt-2 text-xs text-gray-400">
+            Last updated: {new Date(metadata.lastUpdated).toLocaleDateString('en-US', {
+              year: 'numeric',
+              month: 'long',
+              day: 'numeric',
+              hour: '2-digit',
+              minute: '2-digit'
+            })}
+          </p>
+        )}
       </footer>
     </div>
   );
