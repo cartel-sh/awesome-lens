@@ -57,7 +57,7 @@
       "name": "Bad Art",
       "url": "https://art.lens.box",
       "description": "A serious place for unserious art",
-      "github": "https://github.com/kuhaku-xyz/draw",
+      "github": "https://github.com/cartel-sh/draw",
       "tags": [
         "Spring Hackathon"
       ]
@@ -479,11 +479,11 @@
     },
     {
       "name": "Awesome Lens",
-      "url": "https://github.com/kuhaku-xyz/awesome-lens"
+      "url": "https://github.com/cartel-sh/awesome-lens"
     },
     {
       "name": "Lens Next Starter",
-      "url": "https://github.com/kuhaku-xyz/lens-starter"
+      "url": "https://github.com/cartel-sh/lens-starter"
     },
     {
       "name": "Lens SDK",
