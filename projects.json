@@ -164,8 +164,8 @@
     },
     {
       "name": "Fameish",
-      "url": "https://testnet.fameish.day/",
-      "description": "Become the most-followed account for a day",
+      "url": "https://fameish.day",
+      "description": "Become the most followed account for a day",
       "github": "https://github.com/iPaulPro/fameish",
       "tags": [
         "Spring Hackathon"
