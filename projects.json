@@ -120,6 +120,10 @@
       "name": "LCtips",
       "url": "https://lctips.xyz/",
       "description": "Visualising tips on Lens Chain"
+    {
+      "name": "AskLC",
+      "url": "https://askLC.xyz/",
+      "description": "AI that answers questions about Lens Chain creators via mentions."
     },
     {
       "name": "Bonsai",
