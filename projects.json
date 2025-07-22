@@ -78,6 +78,12 @@
       "handle": "lensreputation"
     },
     {
+      "name": "Lens Forum",
+      "url": "https://lensforum.xyz",
+      "description": "Community forum for Lens users to create, discuss, and reward content.",
+      "handle": "lensforum"
+    },
+    {
       "name": "Lens Account Interface",
       "url": "https://account.fkng.social",
       "description": "Account testing chamber with ability to transfer ownership"
